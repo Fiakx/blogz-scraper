@@ -1,0 +1,278 @@
+{
+  "generated_at": "2026-03-12 21:01:12",
+  "count": 17,
+  "articles": [
+    {
+      "hash": "15e583518357709ac6f0f65cd146f907",
+      "cat_slug": "cyber",
+      "title": "Patch de mars 2026 pour Veeam Backup & Replication : 5 failles corrigées, dont 3 critiques",
+      "link": "https://www.it-connect.fr/patch-mars-2026-veeam-backup-replication-5-failles-corrigees-dont-3-critiques/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Veeam-Backup-Replication-patch-mars-2026.jpg.webp",
+      "excerpt": "La mise à jour de mars 2026 pour Veeam Backup & Replication 13 corrige 5 failles de sécurité, dont 3 critiques qui permettent une exécution de code à distance.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-12 14:32:40",
+      "tags": [
+        "Cybersécurité",
+        "Vulnérabilités",
+        "Veeam"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "313ddb6a311c79c21525b81a9eb1e913",
+      "cat_slug": "cyber",
+      "title": "WordPress : 10 failles corrigées et 3 versions déployées en 48h",
+      "link": "https://www.it-connect.fr/wordpress-10-failles-corrigees-et-3-versions-deployees-en-48h/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/WordPress-6.9.4-mise-a-jour-de-securite-mars-2026.jpg.webp",
+      "excerpt": "Trois nouvelles versions de WordPress en deux jours, avec au final dix vulnérabilités corrigées. Voici pourquoi vous devez installer WordPress 6.9.4.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-12 08:57:25",
+      "tags": [
+        "Wordpress",
+        "Cybersécurité",
+        "Vulnérabilités"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "f2020b1ddd6a8115277439fcf3e95cc1",
+      "cat_slug": "cyber",
+      "title": "Accès admin ouvert à tous ? HPE alerte sur cette faille dans Aruba AOS-CX",
+      "link": "https://www.it-connect.fr/acces-admin-ouvert-a-tous-hpe-alerte-sur-cette-faille-dans-aruba-aos-cx/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/CVE-2026-23813-HPE-alerte-sur-cette-faille-dans-Aruba-AOS-CX.jpg.webp",
+      "excerpt": "CVE-2026-23813 : cette faille de sécurité critique découverte dans le système AOS-CX d’Aruba Networking permet de réinitialiser le mot de passe admin.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-11 23:00:00",
+      "tags": [
+        "Cybersécurité",
+        "Vulnérabilité",
+        "HPE"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "f9240bb33ff1d943c8084a3e00e193d9",
+      "cat_slug": "cyber",
+      "title": "Zombie ZIP : cette technique d’évasion rend aveugles les antivirus",
+      "link": "https://www.it-connect.fr/zombie-zip-cette-technique-devasion-rend-aveugles-les-antivirus/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/La-technique-Zombie-ZIP-capable-de-contourner-les-solutions-de-securite.jpg.webp",
+      "excerpt": "La nouvelle technique d’évasion Zombie ZIP permet de cacher des malwares aux yeux de la majorité des solutions de sécurité du marché, y compris les EDR.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-11 09:25:42",
+      "tags": [
+        "Cybersécurité"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "8ac4bd16590220e867e15061834cee94",
+      "cat_slug": "cyber",
+      "title": "Patch Tuesday de mars 2026 : Microsoft corrige 84 failles, dont 2 zero-days",
+      "link": "https://www.it-connect.fr/patch-tuesday-de-mars-2026-microsoft-corrige-84-failles-dont-2-zero-days/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/patch-tuesday-mars-2026.jpg.webp",
+      "excerpt": "Microsoft a dévoilé son Patch Tuesday de mars 2026 et ce dernier corrige 84 vulnérabilités, dont 2 failles zero-day déjà divulguées. Voici l’essentiel à savoir.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-11 07:38:10",
+      "tags": [
+        "Cybersécurité",
+        "Patch Tuesday",
+        "Microsoft"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "960e039ecdcbc1917633b31f867f1ee9",
+      "cat_slug": "cyber",
+      "title": "Phishing : pourquoi le domaine .arpa est-il détourné par les pirates ?",
+      "link": "https://www.it-connect.fr/phishing-pourquoi-le-domaine-arpa-est-il-detourne-par-les-pirates/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Phishing-pourquoi-le-domaine-arpa-est-il-detourne-par-les-pirates.jpg.webp",
+      "excerpt": "Des pirates sont parvenus à détourner le domaine de premier niveau .arpa avec des adresses en IPv6 pour contourner les filtres anti-phishing.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-10 10:38:09",
+      "tags": [
+        "Cybersécurité",
+        "DNS",
+        "Phishing"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "38eb8bea535dc60994cc810c55e7963a",
+      "cat_slug": "cyber",
+      "title": "Firefox 148 : 22 failles de sécurité corrigées grâce à l’IA Claude Opus 4.6",
+      "link": "https://www.it-connect.fr/firefox-148-22-failles-de-securite-corrigees-grace-a-ia-claude-opus-4-6/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Firefox-148-22-failles-de-securite-corrigees-grace-a-lIA-Claude-Opus-4.6.jpg.webp",
+      "excerpt": "Anthropic a utilisé son modèle Claude Opus 4.6 pour tester la sécurité du navigateur Firefox : l’IA est parvenue à identifier 22 failles de sécurité.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-09 10:01:54",
+      "tags": [
+        "Cybersécurité",
+        "Vulnérabilités",
+        "IA",
+        "Firefox"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "210daf813af540cf9866f4c73828545c",
+      "cat_slug": "cyber",
+      "title": "Pendant 23 minutes, ce ver JavaScript a semé la pagaille sur Wikipédia",
+      "link": "https://www.it-connect.fr/pendant-23-minutes-ce-ver-javascript-a-seme-la-pagaille-sur-wikipedia/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Pendant-23-minutes-ce-ver-JavaScript-a-seme-la-pagaille-sur-Wikipedia.jpg.webp",
+      "excerpt": "Un ver JavaScript capable de se propager automatiquement a été utilisé pour vandaliser des milliers de pages Wikipédia. Il est resté actif pendant 23 minutes.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-09 09:04:04",
+      "tags": [
+        "Cybersécurité",
+        "Malware"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "c304adbb9e0ea924594adb10338ad4c4",
+      "cat_slug": "cyber",
+      "title": "WordPress – CVE-2026-1492 : une faille dans un plugin permet de devenir admin très facilement",
+      "link": "https://www.it-connect.fr/wordpress-cve-2026-1492-une-faille-dans-un-plugin-permet-de-devenir-admin-tres-facilement/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Plugin-WordPress-User-Registration-Membership-CVE-2026-1492.jpg.webp",
+      "excerpt": "Une faille de sécurité critique affecte l’extension User Registration & Membership. Elle permet à un attaquant de pirater complètement le site WordPress.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-06 06:57:58",
+      "tags": [
+        "Wordpress",
+        "Cybersécurité",
+        "Vulnérabilité"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "e10590f85edc7c1c6be1af92b200832c",
+      "cat_slug": "cyber",
+      "title": "Comment s’est déroulé le piratage de YggTorrent ?",
+      "link": "https://www.it-connect.fr/comment-sest-deroule-le-piratage-de-yggtorrent/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Comment-sest-deroule-le-piratage-de-YggTorrent.jpg.webp",
+      "excerpt": "La publication du dossier YggLeak suite au piratage d’YggTorrent met en évidence la méthodologie utilisée par Grolum pour compromettre les serveurs.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-05 10:15:00",
+      "tags": [
+        "Cybersécurité"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "d3ce88ed8e3f5c2cd549eea37c1b50aa",
+      "cat_slug": "cyber",
+      "title": "Fin de YggTorrent : un pirate détruit le site et révèle les pratiques mafieuses de ses admins",
+      "link": "https://www.it-connect.fr/fin-de-yggtorrent-un-pirate-detruit-le-site-et-revele-les-pratiques-mafieuses-de-ses-admins/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Fin-de-YggTorrent-un-pirate-detruit-le-site-et-revele-les-pratiques-mafieuses-de-ses-admins.jpg.webp",
+      "excerpt": "YggTorrent détruit par un pirate : une fuite de données de 11 Go révèle les mauvaises pratiques des admins allant jusqu’au vol de cartes bancaires.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-04 10:08:22",
+      "tags": [
+        "Cybersécurité"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "1e92f3d7298eb2c6e2b703bd1c484df3",
+      "cat_slug": "cyber",
+      "title": "Après les images durcies, Docker veut étendre la sécurité au niveau des paquets",
+      "link": "https://www.it-connect.fr/docker-hardened-system-packages-securite-conteneurs/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Docker-Hardened-System-Packages.jpg.webp",
+      "excerpt": "Après avoir ouvert à tous l’accès à ses images durcies (DHI) en décembre dernier, Docker annonce le lancement des « Docker Hardened System Packages ».",
+      "author": "Florian BURNEL",
+      "date": "2026-03-04 07:18:46",
+      "tags": [
+        "Docker",
+        "Cybersécurité"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "ccca73e672e64132392e15a7367ea369",
+      "cat_slug": "cyber",
+      "title": "Vaultwarden 1.35.4 : trois failles de sécurité corrigées, mettez à jour votre instance !",
+      "link": "https://www.it-connect.fr/vaultwarden-1-35-4-trois-failles-de-securite-corrigees-mettez-a-jour-votre-instance/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/vaultwarden-Version-1.35.4-security-update.jpg.webp",
+      "excerpt": "Si vous utilisez Vaultwarden, la version self-hosted de Bitwarden, vous devez installer la nouvelle version : 1.35.4. Cette version patche 3 vulnérabilités.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-03 20:00:00",
+      "tags": [
+        "Cybersécurité",
+        "Vulnérabilité"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "329c56fc6b9c78db74fb169d2481dd21",
+      "cat_slug": "cyber",
+      "title": "GLPI 11.0.6 et GLPI 10.0.24 : un total de sept vulnérabilités patchées par ces nouvelles versions",
+      "link": "https://www.it-connect.fr/glpi-11-0-6-et-glpi-10-0-24-mises-a-jour-securite/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/GLPI-11.0.6-et-GLPI-10.0.24-Mises-a-jour-de-securite.jpg.webp",
+      "excerpt": "Ce mardi 3 mars 2026, de nouvelles mises à jour de GLPI ont été mises en ligne : GLPI 11.0.6 et GLPI 10.0.24. Elles corrigent un ensemble de 7 failles.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-03 17:18:18",
+      "tags": [
+        "GLPI",
+        "Cybersécurité",
+        "Vulnérabilités"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "964bf57e387bdfbd595eaf7fd416d0e1",
+      "cat_slug": "cyber",
+      "title": "Incident Cegedim : cette fuite de données médicales menace l’intimité de millions de Français",
+      "link": "https://www.it-connect.fr/incident-cegedim-cette-fuite-de-donnees-medicales-menace-lintimite-de-millions-de-francais/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/02/MonLogicielMedical-Fuite-de-donnees-de-sante-2026.jpg.webp",
+      "excerpt": "Une nouvelle fuite de données importante affecte entre 11 et 15 millions de Français, suite à une intrusion sur la solution MonLogicielMedical.com de Cegedim.",
+      "author": "Florian BURNEL",
+      "date": "2026-02-27 14:02:16",
+      "tags": [
+        "Fuite de données",
+        "Cybersécurité"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "46a5d43f85a67de4d66cd3deb467f575",
+      "cat_slug": "cyber",
+      "title": "Docker et Kubernetes : de l’initiation à la mise en production",
+      "link": "https://www.it-connect.fr/cours/docker-et-kubernetes-initiation-a-la-mise-en-production/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/01/cours-gratuit-docker-kubernetes.png.webp",
+      "excerpt": "",
+      "author": "Jérémy GAK",
+      "date": "2026-03-12 21:01:06",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "80a74b40aa953daf43771838866a37b5",
+      "cat_slug": "cyber",
+      "title": "L’Infrastructure as Code avec Terraform pour Microsoft Azure",
+      "link": "https://www.it-connect.fr/cours/terraform-pour-microsoft-azure/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2025/05/Cours-gratuit-Terraform-pour-Azure.jpg.webp",
+      "excerpt": "",
+      "author": "Luc BRETON",
+      "date": "2026-03-12 21:01:06",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    }
+  ]
+}
