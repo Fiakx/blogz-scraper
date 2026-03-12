@@ -1,16 +1,17 @@
 name: Scraper quotidien — Blogz Des Fous Crazy
 
 on:
-  # Lance tous les jours à 12h00 UTC (= 14h heure française en été)
   schedule:
-    - cron: "0 12 * * *"
-
-  # Permet aussi de lancer manuellement depuis l'interface GitHub
-  workflow_dispatch:
+    - cron: "0 12 * * *"   # tous les jours à 12h UTC (14h heure française)
+  workflow_dispatch:        # lancement manuel depuis GitHub
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
+    # Permission d'écrire dans le dépôt (pour committer articles.json)
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -25,7 +26,13 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Lancer le scraper
-        env:
-          BLOG_API_URL:    ${{ secrets.BLOG_API_URL }}
-          BLOG_API_SECRET: ${{ secrets.BLOG_API_SECRET }}
         run: python scraper.py
+
+      - name: Committer articles.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add articles.json
+          # Committer seulement si le fichier a changé
+          git diff --staged --quiet || git commit -m "🤖 Scrape $(date +'%d/%m/%Y %H:%M')"
+          git push
