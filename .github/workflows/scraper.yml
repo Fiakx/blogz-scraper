@@ -1,0 +1,31 @@
+name: Scraper quotidien — Blogz Des Fous Crazy
+
+on:
+  # Lance tous les jours à 12h00 UTC (= 14h heure française en été)
+  schedule:
+    - cron: "0 12 * * *"
+
+  # Permet aussi de lancer manuellement depuis l'interface GitHub
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Lancer le scraper
+        env:
+          BLOG_API_URL:    ${{ secrets.BLOG_API_URL }}
+          BLOG_API_SECRET: ${{ secrets.BLOG_API_SECRET }}
+        run: python scraper.py
