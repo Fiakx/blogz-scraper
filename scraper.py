@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 “””
-Blogz Des Fous Crazy — Scraper multi-sources
+Blogz Des Fous Crazy – Scraper multi-sources
 Sources :
 
-- IT-Connect  : https://www.it-connect.fr/actualites/actu-securite/  → cat: cyber
-- INCYBER     : https://incyber.org/categorie/cyber/                 → cat: cyber
+- IT-Connect  : https://www.it-connect.fr/actualites/actu-securite/  -> cat: cyber
+- INCYBER     : https://incyber.org/categorie/cyber/                 -> cat: cyber
 
 Sortie : articles.json (commité par GitHub Actions)
 “””
@@ -39,7 +39,7 @@ r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
 r.raise_for_status()
 return BeautifulSoup(r.text, “lxml”)
 except Exception as e:
-print(f”  ⚠️  GET failed: {url} — {e}”)
+print(f”  ⚠️  GET failed: {url} – {e}”)
 return None
 
 def make_hash(url: str) -> str:
@@ -51,7 +51,7 @@ if not tag:
 return “”
 for el in tag.find_all([“script”, “style”, “noscript”, “iframe”]):
 el.decompose()
-# Lazy-load → src réel
+# Lazy-load -> src réel
 for img in tag.find_all(“img”):
 src = img.get(“data-src”) or img.get(“data-lazy-src”) or img.get(“src”, “”)
 if src and not src.startswith(“data:”):
@@ -83,7 +83,7 @@ return datetime.now(timezone.utc).strftime(”%Y-%m-%d %H:%M:%S”)
 
 # ════════════════════════════════════════════════════════════════════════════
 
-# SOURCE 1 — IT-Connect
+# SOURCE 1 – IT-Connect
 
 # ════════════════════════════════════════════════════════════════════════════
 
@@ -105,7 +105,7 @@ for a in soup.select("article h2 a, article h3 a, .entry-title a"):
 
 articles = []
 for url in links:
-    print(f"  → {url}")
+    print(f"  -> {url}")
     art = scrape_itconnect_article(url)
     if art:
         articles.append(art)
@@ -190,7 +190,7 @@ return {
 
 # ════════════════════════════════════════════════════════════════════════════
 
-# SOURCE 2 — INCYBER
+# SOURCE 2 – INCYBER
 
 # ════════════════════════════════════════════════════════════════════════════
 
@@ -212,7 +212,7 @@ for a in soup.select("a[href*='/article/']"):
 
 articles = []
 for url in links:
-    print(f"  → {url}")
+    print(f"  -> {url}")
     art = scrape_incyber_article(url)
     if art:
         articles.append(art)
