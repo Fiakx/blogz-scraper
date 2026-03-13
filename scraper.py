@@ -167,7 +167,7 @@ return {
 
 def scrape_incyber():
 print("\n[INCYBER]")
-soup = get(“https://incyber.org/categorie/cyber/")
+soup = get("https://incyber.org/categorie/cyber/")
 if not soup:
 return []
 
