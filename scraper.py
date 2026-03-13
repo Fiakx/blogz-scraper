@@ -21,7 +21,7 @@ HEADERS = {
 "User-Agent": (
 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
 "AppleWebKit/537.36 (KHTML, like Gecko) "
-"Chrome/122.0.0.0 Safari/537.36”
+"Chrome/122.0.0.0 Safari/537.36"
 )
 }
 TIMEOUT = 15
@@ -166,8 +166,8 @@ return {
 # –– INCYBER ––
 
 def scrape_incyber():
-print(”\n[INCYBER]”)
-soup = get(“https://incyber.org/categorie/cyber/”)
+print("\n[INCYBER]")
+soup = get(“https://incyber.org/categorie/cyber/")
 if not soup:
 return []
 
@@ -275,8 +275,8 @@ return {
 # –– MAIN ––
 
 def main():
-print(“Scraper Blogz Des Fous Crazy”)
-print(”=” * 40)
+print(“Scraper Blogz Des Fous Crazy")
+print("=" * 40)
 
 ```
 all_articles = []
@@ -306,5 +306,5 @@ print("  IT-Connect : " + str(itc))
 print("  INCYBER    : " + str(inc))
 ```
 
-if **name** == “**main**”:
+if **name** == "**main**":
 main()
