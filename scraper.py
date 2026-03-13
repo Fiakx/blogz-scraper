@@ -1,219 +1,356 @@
 #!/usr/bin/env python3
-"""
-scraper.py v3 — Scrape IT-Connect et génère articles.json
-Le fichier est ensuite commité sur GitHub.
-InfinityFree viendra le lire lui-même via fetch.php
-"""
+“””
+Blogz Des Fous Crazy — Scraper multi-sources
+Sources :
 
-import os
-import re
-import json
+- IT-Connect  : https://www.it-connect.fr/actualites/actu-securite/  → cat: cyber
+- INCYBER     : https://incyber.org/categorie/cyber/                 → cat: cyber
+
+Sortie : articles.json (commité par GitHub Actions)
+“””
+
 import hashlib
+import json
+import re
+import time
+from datetime import datetime, timezone
+
 import requests
-from datetime import datetime
 from bs4 import BeautifulSoup
 
-SOURCES = [
-    {
-        "url":      "https://www.it-connect.fr/actualites/actu-securite/",
-        "cat_slug": "cyber",
-        "selectors": {
-            "articles": "article",
-            "title":    "h2 a, h3 a, .entry-title a",
-            "link":     "h2 a, h3 a, .entry-title a",
-            "image":    "img",
-            "excerpt":  "p",
-            "author":   ".author a, .byline a, [class*='author'] a",
-            "date":     "time, [datetime]",
-            "tags":     "[rel='tag'], .tags-links a",
-        }
-    },
-    # Ajoute d'autres sources ici :
-    # {
-    #     "url":      "https://www.it-connect.fr/actualites/actu-logiciel-os/",
-    #     "cat_slug": "tech",
-    #     "selectors": { ... même structure ... }
-    # },
-]
+# ── Config ──────────────────────────────────────────────────────────────────
 
 HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+“User-Agent”: (
+“Mozilla/5.0 (Windows NT 10.0; Win64; x64) “
+“AppleWebKit/537.36 (KHTML, like Gecko) “
+“Chrome/122.0.0.0 Safari/537.36”
+)
+}
+TIMEOUT      = 15
+DELAY        = 1.2   # secondes entre requêtes
+MAX_ARTICLES = 15    # par source
+
+# ── Helpers ──────────────────────────────────────────────────────────────────
+
+def get(url: str) -> BeautifulSoup | None:
+try:
+r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+r.raise_for_status()
+return BeautifulSoup(r.text, “lxml”)
+except Exception as e:
+print(f”  ⚠️  GET failed: {url} — {e}”)
+return None
+
+def make_hash(url: str) -> str:
+return hashlib.sha256(url.encode()).hexdigest()
+
+def clean_html(tag) -> str:
+“”“Supprime scripts, styles et lazy-load depuis un tag BS4.”””
+if not tag:
+return “”
+for el in tag.find_all([“script”, “style”, “noscript”, “iframe”]):
+el.decompose()
+# Lazy-load → src réel
+for img in tag.find_all(“img”):
+src = img.get(“data-src”) or img.get(“data-lazy-src”) or img.get(“src”, “”)
+if src and not src.startswith(“data:”):
+img[“src”] = src
+else:
+img.decompose()
+return str(tag)
+
+def read_time(html: str) -> int:
+words = len(re.sub(r”<[^>]+>”, “ “, html).split())
+return max(1, round(words / 200))
+
+def parse_date_fr(text: str) -> str:
+“”“Convertit ‘10.03.26’ ou ‘10.03.2026’ en datetime ISO.”””
+text = text.strip()
+# Format incyber : DD.MM.YY ou DD.MM.YYYY
+m = re.search(r”(\d{1,2}).(\d{2}).(\d{2,4})”, text)
+if m:
+d, mo, y = m.group(1), m.group(2), m.group(3)
+if len(y) == 2:
+y = “20” + y
+try:
+return datetime(int(y), int(mo), int(d), tzinfo=timezone.utc).strftime(
+“%Y-%m-%d %H:%M:%S”
+)
+except ValueError:
+pass
+return datetime.now(timezone.utc).strftime(”%Y-%m-%d %H:%M:%S”)
+
+# ════════════════════════════════════════════════════════════════════════════
+
+# SOURCE 1 — IT-Connect
+
+# ════════════════════════════════════════════════════════════════════════════
+
+def scrape_itconnect() -> list[dict]:
+print(”\n IT-Connect”)
+LIST_URL = “https://www.it-connect.fr/actualites/actu-securite/”
+soup = get(LIST_URL)
+if not soup:
+return []
+
+```
+links = []
+for a in soup.select("article h2 a, article h3 a, .entry-title a"):
+    href = a.get("href", "")
+    if href and href not in links:
+        links.append(href)
+    if len(links) >= MAX_ARTICLES:
+        break
+
+articles = []
+for url in links:
+    print(f"  → {url}")
+    art = scrape_itconnect_article(url)
+    if art:
+        articles.append(art)
+    time.sleep(DELAY)
+
+print(f"  ✅ {len(articles)} articles récupérés")
+return articles
+```
+
+def scrape_itconnect_article(url: str) -> dict | None:
+soup = get(url)
+if not soup:
+return None
+
+```
+title_tag = soup.select_one("h1.entry-title, h1")
+title = title_tag.get_text(strip=True) if title_tag else ""
+if not title:
+    return None
+
+# Image principale
+image_url = ""
+hero = soup.select_one(".post-thumbnail img, .featured-image img, article img")
+if hero:
+    image_url = (
+        hero.get("data-src") or hero.get("data-lazy-src") or hero.get("src", "")
     )
+    if image_url.startswith("data:"):
+        image_url = ""
+
+# Auteur
+author = ""
+for sel in [".author a", ".entry-author a", '[rel="author"]']:
+    a = soup.select_one(sel)
+    if a:
+        author = a.get_text(strip=True)
+        break
+
+# Date
+date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+for sel in ["time[datetime]", ".entry-date", ".published"]:
+    t = soup.select_one(sel)
+    if t:
+        dt = t.get("datetime") or t.get_text(strip=True)
+        if dt:
+            date_str = dt[:19].replace("T", " ")
+        break
+
+# Contenu
+content_tag = soup.select_one("div.entry-content, div.post-content, article .content")
+content_html = clean_html(content_tag)
+
+# Excerpt
+excerpt = ""
+meta = soup.find("meta", {"name": "description"})
+if meta:
+    excerpt = meta.get("content", "")
+if not excerpt and content_tag:
+    excerpt = content_tag.get_text(" ", strip=True)[:250]
+
+# Tags
+tags = [
+    a.get_text(strip=True)
+    for a in soup.select(".tags a, .post-tags a, .entry-tags a")
+]
+
+return {
+    "hash":       make_hash(url),
+    "cat_slug":   "cyber",
+    "source":     "IT-Connect",
+    "title":      title,
+    "link":       url,
+    "image_url":  image_url,
+    "excerpt":    excerpt,
+    "author":     author or "IT-Connect",
+    "date":       date_str,
+    "tags":       tags,
+    "content":    content_html,
+    "read_time":  read_time(content_html),
+}
+```
+
+# ════════════════════════════════════════════════════════════════════════════
+
+# SOURCE 2 — INCYBER
+
+# ════════════════════════════════════════════════════════════════════════════
+
+def scrape_incyber() -> list[dict]:
+print(”\n INCYBER”)
+LIST_URL = “https://incyber.org/categorie/cyber/”
+soup = get(LIST_URL)
+if not soup:
+return []
+
+```
+links = []
+for a in soup.select("a[href*='/article/']"):
+    href = a.get("href", "")
+    if href and href not in links:
+        links.append(href)
+    if len(links) >= MAX_ARTICLES:
+        break
+
+articles = []
+for url in links:
+    print(f"  → {url}")
+    art = scrape_incyber_article(url)
+    if art:
+        articles.append(art)
+    time.sleep(DELAY)
+
+print(f"  ✅ {len(articles)} articles récupérés")
+return articles
+```
+
+def scrape_incyber_article(url: str) -> dict | None:
+soup = get(url)
+if not soup:
+return None
+
+```
+# Titre
+title_tag = soup.select_one("h1")
+title = title_tag.get_text(strip=True) if title_tag else ""
+if not title:
+    return None
+
+# Image principale (première grande image de l'article)
+image_url = ""
+for img in soup.select("img[src*='wp-content/uploads']"):
+    src = img.get("src", "")
+    # Préférer les images larges (pas les thumbnails 885x690 de nav)
+    if src and "885x690" not in src and "150x150" not in src:
+        image_url = src
+        break
+if not image_url:
+    # fallback : première image wp-content
+    hero = soup.select_one("img[src*='wp-content/uploads']")
+    if hero:
+        image_url = hero.get("src", "")
+
+# Auteur
+author = ""
+a_tag = soup.select_one("a[href*='/contributeur/']")
+if a_tag:
+    author = a_tag.get_text(strip=True)
+
+# Date : chercher le pattern DD.MM.YY dans le texte de la page
+date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+date_match = re.search(r"\d{2}\.\d{2}\.\d{2,4}", soup.get_text())
+if date_match:
+    date_str = parse_date_fr(date_match.group())
+
+# Contenu : le bloc principal après le h1
+# Sur incyber, le contenu est dans .entry-content ou .article-content
+content_tag = soup.select_one(
+    ".entry-content, .article-content, .post-content, article .content"
+)
+# Fallback : prendre les <p> qui suivent le h1
+if not content_tag:
+    h1 = soup.select_one("h1")
+    if h1:
+        # Créer un div synthétique avec tous les p/h2/h3 suivants
+        paragraphs = []
+        for sib in h1.find_all_next(["p", "h2", "h3", "ul", "ol", "blockquote"]):
+            # Stopper sur les sections de navigation
+            if sib.find_parent(class_=re.compile(r"nav|menu|sidebar|footer|related")):
+                continue
+            paragraphs.append(str(sib))
+            if len(paragraphs) > 60:
+                break
+        fake = BeautifulSoup("<div>" + "".join(paragraphs) + "</div>", "lxml")
+        content_tag = fake.find("div")
+
+content_html = clean_html(content_tag)
+
+# Excerpt (meta description)
+excerpt = ""
+meta = soup.find("meta", {"name": "description"})
+if meta:
+    excerpt = meta.get("content", "")
+if not excerpt and content_tag:
+    excerpt = content_tag.get_text(" ", strip=True)[:250]
+
+# Tags (catégories incyber)
+tags = [
+    a.get_text(strip=True)
+    for a in soup.select("a[href*='/categorie/']")
+    if a.get_text(strip=True) not in ("Cyber +", "")
+]
+tags = list(dict.fromkeys(tags))[:5]  # dédoublonner, max 5
+
+return {
+    "hash":       make_hash(url),
+    "cat_slug":   "cyber",
+    "source":     "INCYBER",
+    "title":      title,
+    "link":       url,
+    "image_url":  image_url,
+    "excerpt":    excerpt,
+    "author":     author or "INCYBER",
+    "date":       date_str,
+    "tags":       tags,
+    "content":    content_html,
+    "read_time":  read_time(content_html),
+}
+```
+
+# ════════════════════════════════════════════════════════════════════════════
+
+# MAIN
+
+# ════════════════════════════════════════════════════════════════════════════
+
+def main():
+print(“ Scraper Blogz Des Fous Crazy”)
+print(”=” * 50)
+
+```
+all_articles = []
+all_articles += scrape_itconnect()
+all_articles += scrape_incyber()
+
+# Dédoublonner par hash (au cas où)
+seen = set()
+unique = []
+for a in all_articles:
+    if a["hash"] not in seen:
+        seen.add(a["hash"])
+        unique.append(a)
+
+output = {
+    "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
+    "count":        len(unique),
+    "articles":     unique,
 }
 
-# ============================================================
-#  UTILITAIRES
-# ============================================================
-def article_hash(url: str) -> str:
-    return hashlib.sha256(url.encode()).hexdigest()[:32]
+with open("articles.json", "w", encoding="utf-8") as f:
+    json.dump(output, f, ensure_ascii=False, indent=2)
 
-def estimate_read_time(text: str) -> int:
-    return max(1, round(len(text.split()) / 250))
+print(f"\n✅ {len(unique)} articles sauvegardés dans articles.json")
+print(f"   IT-Connect : {sum(1 for a in unique if a['source'] == 'IT-Connect')}")
+print(f"   INCYBER    : {sum(1 for a in unique if a['source'] == 'INCYBER')}")
+```
 
-def parse_date(raw: str) -> str:
-    raw = (raw or "").strip()
-    try:
-        return datetime.fromisoformat(raw).strftime("%Y-%m-%d %H:%M:%S")
-    except: pass
-    try:
-        return datetime.strptime(raw, "%d/%m/%Y").strftime("%Y-%m-%d %H:%M:%S")
-    except: pass
-    mois = {"janvier":"01","février":"02","mars":"03","avril":"04",
-            "mai":"05","juin":"06","juillet":"07","août":"08",
-            "septembre":"09","octobre":"10","novembre":"11","décembre":"12"}
-    m = re.match(r"(\d{1,2})\s+(\w+)\s+(\d{4})", raw.lower())
-    if m:
-        d, mn, y = m.groups()
-        return f"{y}-{mois.get(mn,'01')}-{d.zfill(2)} 00:00:00"
-    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-def get_image(el) -> str:
-    if not el:
-        return ""
-    for attr in ["data-src", "data-lazy-src", "src"]:
-        val = el.get(attr, "")
-        if val and not val.startswith("data:"):
-            return val
-    for attr in ["data-srcset", "srcset"]:
-        srcset = el.get(attr, "")
-        if srcset:
-            parts = [p.strip().split()[0] for p in srcset.split(",") if p.strip()]
-            if parts:
-                return parts[-1]
-    return ""
-
-# ============================================================
-#  SCRAPER — PAGE LISTE
-# ============================================================
-def scrape_list(source: dict) -> list:
-    print(f"\n🔍  {source['url']}")
-    try:
-        r = requests.get(source["url"], headers=HEADERS, timeout=15)
-        r.raise_for_status()
-    except Exception as e:
-        print(f"  ❌ Requête échouée : {e}")
-        return []
-
-    soup   = BeautifulSoup(r.text, "html.parser")
-    sel    = source["selectors"]
-    blocks = soup.select(sel["articles"])
-    print(f"  → {len(blocks)} blocs trouvés")
-
-    results = []
-    for block in blocks:
-        try:
-            title_el = block.select_one(sel["title"])
-            if not title_el:
-                continue
-            title = title_el.get_text(strip=True)
-            link  = title_el.get("href", "").strip()
-            if not title or not link:
-                continue
-
-            image_url  = get_image(block.select_one(sel["image"]))
-            excerpt_el = block.select_one(sel["excerpt"])
-            excerpt    = excerpt_el.get_text(strip=True) if excerpt_el else ""
-            author_el  = block.select_one(sel["author"])
-            author     = author_el.get_text(strip=True) if author_el else ""
-            date_el    = block.select_one(sel["date"])
-            date_raw   = (date_el.get("datetime") or date_el.get_text(strip=True)) if date_el else ""
-            tags       = list(set([t.get_text(strip=True) for t in block.select(sel["tags"])]))
-
-            results.append({
-                "hash":      article_hash(link),
-                "cat_slug":  source["cat_slug"],
-                "title":     title,
-                "link":      link,
-                "image_url": image_url,
-                "excerpt":   excerpt,
-                "author":    author,
-                "date":      parse_date(date_raw),
-                "tags":      tags,
-            })
-            print(f"  ✅ {title[:70]}")
-        except Exception as e:
-            print(f"  ⚠️  Bloc ignoré : {e}")
-
-    return results
-
-# ============================================================
-#  SCRAPER — CONTENU COMPLET DE L'ARTICLE
-# ============================================================
-def scrape_content(url: str) -> dict:
-    if not url:
-        return {"content": "", "read_time": 1}
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-    except Exception as e:
-        print(f"    ⚠️  Contenu inaccessible : {e}")
-        return {"content": "", "read_time": 1}
-
-    soup    = BeautifulSoup(r.text, "html.parser")
-    content = (
-        soup.select_one("div.entry-content") or
-        soup.select_one("div.post-content")  or
-        soup.select_one("article .content")
-    )
-    if not content:
-        return {"content": "", "read_time": 1}
-
-    # Nettoyer les éléments parasites
-    for el in content.select(
-        "script,style,.sharedaddy,.jp-relatedposts,.wpcnt,"
-        ".adsbygoogle,nav,.navigation,.post-navigation,"
-        ".comments-area,#comments,.sidebar,aside,.widget,"
-        "[class*='banner'],[class*='advert'],[id*='advert'],"
-        ".itc-newsletter,.itc-pub"
-    ):
-        el.decompose()
-
-    # Corriger les images lazy-load
-    for img in content.select("img"):
-        real = get_image(img)
-        if real:
-            img["src"] = real
-        else:
-            img.decompose()
-
-    html      = str(content)
-    read_time = estimate_read_time(content.get_text(separator=" ", strip=True))
-    return {"content": html, "read_time": read_time}
-
-# ============================================================
-#  MAIN
-# ============================================================
-def main():
-    print("=" * 60)
-    print(f"🚀 Scraper v3 — {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
-    print("=" * 60)
-
-    all_articles = []
-
-    for source in SOURCES:
-        articles = scrape_list(source)
-        for art in articles:
-            print(f"\n  📄 Récupération contenu : {art['title'][:60]}")
-            full             = scrape_content(art["link"])
-            art["content"]   = full["content"]
-            art["read_time"] = full["read_time"]
-            all_articles.append(art)
-
-    # Écrire le fichier JSON
-    output = {
-        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "count":        len(all_articles),
-        "articles":     all_articles,
-    }
-
-    with open("articles.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    print(f"\n{'=' * 60}")
-    print(f"📦 articles.json généré — {len(all_articles)} articles")
-    print("=" * 60)
-
-if __name__ == "__main__":
-    main()
+if **name** == “**main**”:
+main()
