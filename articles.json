@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-03-12 21:01:12",
+  "generated_at": "2026-03-13 12:56:14",
   "count": 17,
   "articles": [
+    {
+      "hash": "e144849abc67129d7a892ad25e6b6be6",
+      "cat_slug": "cyber",
+      "title": "Don’t Go to the Police : le film choc sur la cyberattaque qui a fait trembler la France",
+      "link": "https://www.it-connect.fr/dont-go-to-the-police-le-film-choc-sur-la-cyberattaque-qui-a-fait-trembler-la-france/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/documentation-cybersecurite-Dont-Go-to-the-Police.jpg.webp",
+      "excerpt": "Oubliez Netflix le temps d’une soirée : Orange Cyberdefense vient de dévoiler « Don’t Go to the Police », un film documentaire inédit et totalement gratuit.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-13 09:34:48",
+      "tags": [
+        "Cybersécurité"
+      ],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "1c39f702f637654fb9dd876c34ed9b8e",
+      "cat_slug": "cyber",
+      "title": "Exploit Coruna : Apple ressuscite iOS 15 et 16 pour protéger vos vieux iPhone et iPad",
+      "link": "https://www.it-connect.fr/exploit-coruna-apple-ressuscite-ios-15-et-16-pour-proteger-vos-vieux-iphone-et-ipad/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Patchs-de-securite-iOS-pour-exploit-kit-Coruna-Mars-2026.jpg.webp",
+      "excerpt": "Apple a publié des mises à jour de sécurité pour d’anciennes générations d’iPhone et d’iPad pour patcher les failles exploitées par l’exploit kit Coruna.",
+      "author": "Florian BURNEL",
+      "date": "2026-03-13 08:50:43",
+      "tags": [
+        "Cybersécurité",
+        "Vulnérabilités",
+        "Apple"
+      ],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "15e583518357709ac6f0f65cd146f907",
       "cat_slug": "cyber",
@@ -13,8 +45,8 @@
       "date": "2026-03-12 14:32:40",
       "tags": [
         "Cybersécurité",
-        "Vulnérabilités",
-        "Veeam"
+        "Veeam",
+        "Vulnérabilités"
       ],
       "content": "",
       "read_time": 1
@@ -29,9 +61,9 @@
       "author": "Florian BURNEL",
       "date": "2026-03-12 08:57:25",
       "tags": [
-        "Wordpress",
         "Cybersécurité",
-        "Vulnérabilités"
+        "Vulnérabilités",
+        "Wordpress"
       ],
       "content": "",
       "read_time": 1
@@ -47,8 +79,8 @@
       "date": "2026-03-11 23:00:00",
       "tags": [
         "Cybersécurité",
-        "Vulnérabilité",
-        "HPE"
+        "HPE",
+        "Vulnérabilité"
       ],
       "content": "",
       "read_time": 1
@@ -79,8 +111,8 @@
       "date": "2026-03-11 07:38:10",
       "tags": [
         "Cybersécurité",
-        "Patch Tuesday",
-        "Microsoft"
+        "Microsoft",
+        "Patch Tuesday"
       ],
       "content": "",
       "read_time": 1
@@ -95,8 +127,8 @@
       "author": "Florian BURNEL",
       "date": "2026-03-10 10:38:09",
       "tags": [
-        "Cybersécurité",
         "DNS",
+        "Cybersécurité",
         "Phishing"
       ],
       "content": "",
@@ -113,9 +145,9 @@
       "date": "2026-03-09 10:01:54",
       "tags": [
         "Cybersécurité",
+        "Firefox",
         "Vulnérabilités",
-        "IA",
-        "Firefox"
+        "IA"
       ],
       "content": "",
       "read_time": 1
@@ -146,9 +178,9 @@
       "author": "Florian BURNEL",
       "date": "2026-03-06 06:57:58",
       "tags": [
-        "Wordpress",
         "Cybersécurité",
-        "Vulnérabilité"
+        "Vulnérabilité",
+        "Wordpress"
       ],
       "content": "",
       "read_time": 1
@@ -193,8 +225,8 @@
       "author": "Florian BURNEL",
       "date": "2026-03-04 07:18:46",
       "tags": [
-        "Docker",
-        "Cybersécurité"
+        "Cybersécurité",
+        "Docker"
       ],
       "content": "",
       "read_time": 1
@@ -216,39 +248,6 @@
       "read_time": 1
     },
     {
-      "hash": "329c56fc6b9c78db74fb169d2481dd21",
-      "cat_slug": "cyber",
-      "title": "GLPI 11.0.6 et GLPI 10.0.24 : un total de sept vulnérabilités patchées par ces nouvelles versions",
-      "link": "https://www.it-connect.fr/glpi-11-0-6-et-glpi-10-0-24-mises-a-jour-securite/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/GLPI-11.0.6-et-GLPI-10.0.24-Mises-a-jour-de-securite.jpg.webp",
-      "excerpt": "Ce mardi 3 mars 2026, de nouvelles mises à jour de GLPI ont été mises en ligne : GLPI 11.0.6 et GLPI 10.0.24. Elles corrigent un ensemble de 7 failles.",
-      "author": "Florian BURNEL",
-      "date": "2026-03-03 17:18:18",
-      "tags": [
-        "GLPI",
-        "Cybersécurité",
-        "Vulnérabilités"
-      ],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "964bf57e387bdfbd595eaf7fd416d0e1",
-      "cat_slug": "cyber",
-      "title": "Incident Cegedim : cette fuite de données médicales menace l’intimité de millions de Français",
-      "link": "https://www.it-connect.fr/incident-cegedim-cette-fuite-de-donnees-medicales-menace-lintimite-de-millions-de-francais/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/02/MonLogicielMedical-Fuite-de-donnees-de-sante-2026.jpg.webp",
-      "excerpt": "Une nouvelle fuite de données importante affecte entre 11 et 15 millions de Français, suite à une intrusion sur la solution MonLogicielMedical.com de Cegedim.",
-      "author": "Florian BURNEL",
-      "date": "2026-02-27 14:02:16",
-      "tags": [
-        "Fuite de données",
-        "Cybersécurité"
-      ],
-      "content": "",
-      "read_time": 1
-    },
-    {
       "hash": "46a5d43f85a67de4d66cd3deb467f575",
       "cat_slug": "cyber",
       "title": "Docker et Kubernetes : de l’initiation à la mise en production",
@@ -256,7 +255,7 @@
       "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/01/cours-gratuit-docker-kubernetes.png.webp",
       "excerpt": "",
       "author": "Jérémy GAK",
-      "date": "2026-03-12 21:01:06",
+      "date": "2026-03-13 12:56:06",
       "tags": [],
       "content": "",
       "read_time": 1
@@ -269,7 +268,7 @@
       "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2025/05/Cours-gratuit-Terraform-pour-Azure.jpg.webp",
       "excerpt": "",
       "author": "Luc BRETON",
-      "date": "2026-03-12 21:01:06",
+      "date": "2026-03-13 12:56:06",
       "tags": [],
       "content": "",
       "read_time": 1
