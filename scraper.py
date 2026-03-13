@@ -275,7 +275,7 @@ return {
 # –– MAIN ––
 
 def main():
-print(“Scraper Blogz Des Fous Crazy")
+print("Scraper Blogz Des Fous Crazy")
 print("=" * 40)
 
 ```
