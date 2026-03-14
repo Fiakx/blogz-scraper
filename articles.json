@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13 14:59:07",
+  "generated_at": "2026-03-14 12:49:26",
   "count": 30,
   "articles": [
     {
@@ -106,7 +106,7 @@
       "source": "IT-Connect",
       "title": "Phishing : pourquoi le domaine .arpa est-il détourné par les pirates ?",
       "link": "https://www.it-connect.fr/phishing-pourquoi-le-domaine-arpa-est-il-detourne-par-les-pirates/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Phishing-pourquoi-le-domaine-arpa-est-il-detourne-par-les-pirates.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Phishing-pourquoi-le-domaine-arpa-est-il-detourne-par-les-pirates.jpg.webp",
       "excerpt": "Des pirates sont parvenus à détourner le domaine de premier niveau .arpa avec des adresses en IPv6 pour contourner les filtres anti-phishing.",
       "author": "IT-Connect",
       "date": "2026-03-10 10:38:09",
