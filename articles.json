@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-03-15 12:52:04",
+  "generated_at": "2026-03-16 13:10:07",
   "count": 30,
   "articles": [
+    {
+      "hash": "e6b1f8c8f0068e854cc5e04ec1b512112b6f2cfc963b528847875b432f883781",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Fin du chiffrement de bout en bout sur Instagram dès le 8 mai 2026",
+      "link": "https://www.it-connect.fr/fin-du-chiffrement-de-bout-en-bout-sur-instagram-des-le-8-mai-2026/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Fin-du-chiffrement-de-bout-en-bout-sur-Instagram-des-le-8-mai-2026.jpg",
+      "excerpt": "Meta s'apprête à stopper la prise en charge du chiffrement de bout en bout (E2EE) sur la messagerie d'Instagram à compter du 8 mai prochain.",
+      "author": "IT-Connect",
+      "date": "2026-03-16 09:28:01",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "184764ca287ef903e71c155d1bb4554105541b2adaf6e3d04c132247be8d1531",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Google Chrome : 2 mises à jour en 2 jours pour patcher plusieurs failles zero-day",
+      "link": "https://www.it-connect.fr/google-chrome-2-mises-a-jour-en-2-jours-pour-patcher-plusieurs-failles-zero-day/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Google-Chrome-zero-day-CVE-2026-3909-et-CVE-2026-3910.jpg.webp",
+      "excerpt": "Google a publié deux mises à jour Google Chrome en l'espace de 48 heures dans le but de patcher deux failles zero-day : CVE-2026-3909 et CVE-2026-3910.",
+      "author": "IT-Connect",
+      "date": "2026-03-16 07:01:06",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "e144849abc67129d7a892ad25e6b6be68c5045ce10b1969de1816d5d1acf2f3a",
       "cat_slug": "cyber",
@@ -185,34 +213,6 @@
       "read_time": 1
     },
     {
-      "hash": "1e92f3d7298eb2c6e2b703bd1c484df31d4f8d8f0351672695f2a6a448973590",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Après les images durcies, Docker veut étendre la sécurité au niveau des paquets",
-      "link": "https://www.it-connect.fr/docker-hardened-system-packages-securite-conteneurs/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Docker-Hardened-System-Packages.jpg.webp",
-      "excerpt": "Après avoir ouvert à tous l'accès à ses images durcies (DHI) en décembre dernier, Docker annonce le lancement des \"Docker Hardened System Packages\".",
-      "author": "IT-Connect",
-      "date": "2026-03-04 07:18:46",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "ccca73e672e64132392e15a7367ea369ada70b9b4e43847446d06fa9553c2f38",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Vaultwarden 1.35.4 : trois failles de sécurité corrigées, mettez à jour votre instance !",
-      "link": "https://www.it-connect.fr/vaultwarden-1-35-4-trois-failles-de-securite-corrigees-mettez-a-jour-votre-instance/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/vaultwarden-Version-1.35.4-security-update.jpg.webp",
-      "excerpt": "Si vous utilisez Vaultwarden, la version self-hosted de Bitwarden, vous devez installer la nouvelle version : 1.35.4. Cette version patche 3 vulnérabilités.",
-      "author": "IT-Connect",
-      "date": "2026-03-03 20:00:00",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
       "hash": "9ef6a5f47d7e169f8a12e2d9f8972e43b6934dd6337231fcdfe4e0ff9de6a96c",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -281,7 +281,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-8-2160x735.jpg",
       "excerpt": "Donald Trump a sanctionné le refus du géant de l’IA de lever ses restrictions éthiques sur la surveillance de masse et les armes autonomes.",
       "author": "La Rédaction",
-      "date": "2026-03-04 00:00:00",
+      "date": "2026-03-11 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
