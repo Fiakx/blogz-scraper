@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-03-16 13:10:07",
+  "generated_at": "2026-03-17 13:10:30",
   "count": 30,
   "articles": [
+    {
+      "hash": "b41edd6a18aadf58fbbdfe03531e3b9611503bb5c2c6478f10f34d6e6dc3011b",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Comment les pirates ont effacé 80 000 PC chez Stryker sans le moindre malware",
+      "link": "https://www.it-connect.fr/comment-les-pirates-ont-efface-80-000-pc-chez-stryker-sans-le-moindre-malware/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Stryker-destruction-PC-via-Intune-Mars-2026.jpg.webp",
+      "excerpt": "Sans ransomware ni malware, des pirates ont effacé 80 000 appareils du géant Stryker en détournant Microsoft Intune. Décryptage de cette attaque inédite.",
+      "author": "IT-Connect",
+      "date": "2026-03-17 08:57:54",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "e6b1f8c8f0068e854cc5e04ec1b512112b6f2cfc963b528847875b432f883781",
       "cat_slug": "cyber",
       "source": "IT-Connect",
       "title": "Fin du chiffrement de bout en bout sur Instagram dès le 8 mai 2026",
       "link": "https://www.it-connect.fr/fin-du-chiffrement-de-bout-en-bout-sur-instagram-des-le-8-mai-2026/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Fin-du-chiffrement-de-bout-en-bout-sur-Instagram-des-le-8-mai-2026.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Fin-du-chiffrement-de-bout-en-bout-sur-Instagram-des-le-8-mai-2026.jpg.webp",
       "excerpt": "Meta s'apprête à stopper la prise en charge du chiffrement de bout en bout (E2EE) sur la messagerie d'Instagram à compter du 8 mai prochain.",
       "author": "IT-Connect",
       "date": "2026-03-16 09:28:01",
@@ -22,7 +36,7 @@
       "source": "IT-Connect",
       "title": "Google Chrome : 2 mises à jour en 2 jours pour patcher plusieurs failles zero-day",
       "link": "https://www.it-connect.fr/google-chrome-2-mises-a-jour-en-2-jours-pour-patcher-plusieurs-failles-zero-day/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Google-Chrome-zero-day-CVE-2026-3909-et-CVE-2026-3910.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Google-Chrome-zero-day-CVE-2026-3909-et-CVE-2026-3910.jpg",
       "excerpt": "Google a publié deux mises à jour Google Chrome en l'espace de 48 heures dans le but de patcher deux failles zero-day : CVE-2026-3909 et CVE-2026-3910.",
       "author": "IT-Connect",
       "date": "2026-03-16 07:01:06",
@@ -199,17 +213,43 @@
       "read_time": 1
     },
     {
-      "hash": "d3ce88ed8e3f5c2cd549eea37c1b50aac5aef2b01ebaa0609586288548fe31cc",
+      "hash": "f55211829bdce516eb0ed1b39cd9280555a7029609b0818b907bd663306aa6a1",
       "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Fin de YggTorrent : un pirate détruit le site et révèle les pratiques mafieuses de ses admins",
-      "link": "https://www.it-connect.fr/fin-de-yggtorrent-un-pirate-detruit-le-site-et-revele-les-pratiques-mafieuses-de-ses-admins/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Fin-de-YggTorrent-un-pirate-detruit-le-site-et-revele-les-pratiques-mafieuses-de-ses-admins.jpg.webp",
-      "excerpt": "YggTorrent détruit par un pirate : une fuite de données de 11 Go révèle les mauvaises pratiques des admins allant jusqu'au vol de cartes bancaires.",
-      "author": "IT-Connect",
-      "date": "2026-03-04 10:08:22",
-      "tags": [],
-      "content": "",
+      "source": "INCYBER",
+      "title": "De l’énergie aux télécoms, la cybersécurité comme relais de croissance",
+      "link": "https://incyber.org/article/de-lenergie-aux-telecoms-cybersecurite-relais-croissance/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/06/istock-1384205321-2160x735.jpg",
+      "excerpt": "Sharp, Schneider Electric, Vinci, Bouygues… Confrontés à la protection de leurs propres infrastructures ou des systèmes qu’ils déploient pour leurs clients, de plus en plus de groupes industriels investissent le champ de la cybersécurité. Une évolution qui les conduit à transformer des compétences internes en offres commerciales.",
+      "author": "Fabrice Deblock",
+      "date": "2026-03-16 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
+      "hash": "6509596de10784f48449e70f233f4c531ab207bb88e458551b5c661f692aa542",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Isabelle Hilali, l’art de tenir le cap quand tout accélère",
+      "link": "https://incyber.org/article/isabelle-hilali-lart-de-tenir-le-cap-quand-tout-accelere/",
+      "image_url": "https://incyber.org//wp-content/uploads/2024/03/adobestock-749446930-1920x735.jpeg",
+      "excerpt": "Isabelle Hilali a cette qualité rare : elle met à l’aise sans jamais renoncer à la rigueur de son propos. Une parole précise, une écoute attentive, et cette manière de répondre comme si chaque question méritait qu’on s’y arrête. On comprend vite pourquoi on a envie de prolonger la conversation. L’échange est dense, incarné, porté par une exigence intellectuelle constante.",
+      "author": "En savoir plus",
+      "date": "2026-03-11 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
       "read_time": 1
     },
     {
@@ -222,26 +262,6 @@
       "excerpt": "« Should I stay or should I go », chantait The Clash en 1982 : « If I stay, it will be trouble; if I go, it will be double ». Un dilemme qui résume bien la position des États et entreprises face à Palantir. La société offre des outils d’aide à la décision extraordinairement puissants, dont il semble difficile de se passer. Une puissance qui permet aussi les dérives les plus inquiétantes. Alors, Palantir, outil indispensable ou redoutable cheval de Troie ? INCYBER a enquêté.",
       "author": "Stanislas Tarnowski",
       "date": "2026-03-10 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "0ad2eb98179d91d9f808ca0ed5e97d7cecf3bb3044017371a27a21fed9b7cda5",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Focus InnoShindan, l’outsider européen de la détection mobile",
-      "link": "https://incyber.org/article/focus-inno-shindan-loutsider-europeen-de-la-detection-mobile/",
-      "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-threat-cybersecurite-cybersecurity-2160x735.jpg",
-      "excerpt": "Fondée par Davy Douhine au sein de RandoriSec, Shindan développe une solution capable de détecter la compromission d’un smartphone sans accéder aux données personnelles de son utilisateur. Une promesse forte, pensée d’abord pour les VIP et les environnements sensibles, avec l’ambition assumée de s’ouvrir demain au grand public.",
-      "author": "En savoir plus",
-      "date": "2026-03-04 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -281,7 +301,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-8-2160x735.jpg",
       "excerpt": "Donald Trump a sanctionné le refus du géant de l’IA de lever ses restrictions éthiques sur la surveillance de masse et les armes autonomes.",
       "author": "La Rédaction",
-      "date": "2026-03-11 00:00:00",
+      "date": "2026-03-04 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -481,26 +501,6 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/06/incyber-news-cybersecurite-cybersecurity-cyberespace-1-2024-2160x735.jpg",
       "excerpt": "Jean Langlois-Berthelot, Morgane Villers La technique occidentale n’a pas tant été inventée pour comprendre le monde que pour en différer l’absurdité.",
       "author": "Jean Langlois-Berthelot",
-      "date": "2026-03-04 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "889bbfa0d3352e6d59bb571df0129947af99d5d4b920d8036eb422ebbbd1d0c0",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Une opération de cyberespionnage a compromis 37 gouvernements dans le monde",
-      "link": "https://incyber.org/article/operation-cyberespionnage-compromis-37-gouvernements-dans-monde/",
-      "image_url": "https://incyber.org//wp-content/uploads/2025/01/incyber-news-cover-european-cybersecurity-mapping-2025-2000x735.jpg",
-      "excerpt": "Selon Palo Alto Networks, l’acteur de la menace, d’origine asiatique, a mené la plus importante campagne étatique depuis SolarWinds.",
-      "author": "La Rédaction",
       "date": "2026-03-04 00:00:00",
       "tags": [
         "Cyber stabilité",
