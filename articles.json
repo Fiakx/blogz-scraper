@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21 12:46:27",
+  "generated_at": "2026-03-22 12:49:53",
   "count": 30,
   "articles": [
     {
@@ -8,7 +8,7 @@
       "source": "IT-Connect",
       "title": "Mots de passe, clés API : le malware Perseus cible les notes sur Android",
       "link": "https://www.it-connect.fr/mots-de-passe-cles-api-le-malware-perseus-cible-les-notes-sur-android/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Android-Le-malware-Perseus-vole-les-donnees-depuis-les-Notes-des-utilisateurs.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Android-Le-malware-Perseus-vole-les-donnees-depuis-les-Notes-des-utilisateurs.jpg.webp",
       "excerpt": "Un nouveau malware baptisé Perseus cible les smartphones Android pour voler des mots de passe et autres informations sensibles dans les notes des utilisateurs.",
       "author": "IT-Connect",
       "date": "2026-03-20 14:37:08",
@@ -64,7 +64,7 @@
       "source": "IT-Connect",
       "title": "Le spécialiste de la protection d’identité Aura piraté : 900 000 contacts dans la nature",
       "link": "https://www.it-connect.fr/le-specialiste-de-la-protection-identite-aura-pirate-900-000-contacts-dans-la-nature/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Fuite-de-donnees-Aura-mars-2026.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Fuite-de-donnees-Aura-mars-2026.jpg",
       "excerpt": "Aura est victime d'une fuite de données : les informations personnelles de 900 000 contacts, dont les miennes se sont retrouvées exposées sur le Dark Web.",
       "author": "IT-Connect",
       "date": "2026-03-19 17:46:20",
@@ -92,7 +92,7 @@
       "source": "IT-Connect",
       "title": "Apple a corrigé une faille sur iOS et macOS, et c’est invisible grâce à cette nouveauté",
       "link": "https://www.it-connect.fr/apple-a-corrige-une-faille-sur-ios-et-macos-et-cest-invisible-grace-a-cette-nouveaute/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Apple-patch-de-securite-a-chaud-pour-CVE-2026-20643.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Apple-patch-de-securite-a-chaud-pour-CVE-2026-20643.jpg",
       "excerpt": "Apple a déployé son premier correctif via la fonctionnalité \"Background Security Improvements\" pour la CVE-2026-20643. C'est transparent pour les utilisateurs.",
       "author": "IT-Connect",
       "date": "2026-03-19 09:12:22",
@@ -162,7 +162,7 @@
       "source": "IT-Connect",
       "title": "Comment les pirates ont effacé 80 000 PC chez Stryker sans le moindre malware",
       "link": "https://www.it-connect.fr/comment-les-pirates-ont-efface-80-000-pc-chez-stryker-sans-le-moindre-malware/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Stryker-destruction-PC-via-Intune-Mars-2026.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Stryker-destruction-PC-via-Intune-Mars-2026.jpg",
       "excerpt": "Sans ransomware ni malware, des pirates ont effacé 80 000 appareils du géant Stryker en détournant Microsoft Intune. Décryptage de cette attaque inédite.",
       "author": "IT-Connect",
       "date": "2026-03-17 08:57:54",
@@ -281,7 +281,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2026/03/whatsapp-image-2026-03-09-at-19-44-38-1-1536x735.jpeg",
       "excerpt": "« Should I stay or should I go », chantait The Clash en 1982 : « If I stay, it will be trouble; if I go, it will be double ». Un dilemme qui résume bien la position des États et entreprises face à Palantir. La société offre des outils d’aide à la décision extraordinairement puissants, dont il semble difficile de se passer. Une puissance qui permet aussi les dérives les plus inquiétantes. Alors, Palantir, outil indispensable ou redoutable cheval de Troie ? INCYBER a enquêté.",
       "author": "Stanislas Tarnowski",
-      "date": "2026-03-10 00:00:00",
+      "date": "2026-03-16 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
