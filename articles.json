@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26 13:14:06",
+  "generated_at": "2026-03-27 13:04:50",
   "count": 30,
   "articles": [
     {
@@ -8,7 +8,7 @@
       "source": "IT-Connect",
       "title": "CVE-2026-3055 : appliquez ce patch Citrix avant qu’il ne soit trop tard",
       "link": "https://www.it-connect.fr/cve-2026-3055-appliquez-ce-patch-citrix-avant-quil-ne-soit-trop-tard/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/CVE-2026-3055-appliquez-ce-patch-Citrix-avant-quil-ne-soit-trop-tard.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/CVE-2026-3055-appliquez-ce-patch-Citrix-avant-quil-ne-soit-trop-tard.jpg",
       "excerpt": "Une nouvelle alerte de sécurité pour les solutions Citrix NetScaler après la découverte de 2 failles, dont l'une particulièrement inquiétante : CVE-2026-3055.",
       "author": "IT-Connect",
       "date": "2026-03-26 09:01:52",
@@ -213,15 +213,15 @@
       "read_time": 1
     },
     {
-      "hash": "2a839442f656ce7f49c9b0d4a3ae5e5c6d75189da9fd6f77a0b538b1b23afa61",
+      "hash": "a1c3527325529394d4852e422b9e753f8403c7d4f1d0b87623058988bef3d82f",
       "cat_slug": "cyber",
       "source": "INCYBER",
-      "title": "Pourquoi l’empilement d’outils fragilise la cybersécurité des organisations",
-      "link": "https://incyber.org/article/pourquoi-lempilement-doutils-fragilise-la-cybersecurite-des-organisations/",
-      "image_url": "https://incyber.org//wp-content/uploads/2025/05/incyber-news-cybersecurite-cybersecurity-cyberespace-2-2024-2160x735.jpg",
-      "excerpt": "Surface d'attaque élargie, pression réglementaire avec NIS2, groupes APT aux aguets — la cybersécurité des entreprises de taille intermédiaire n'a jamais été aussi complexe. Benoit Grünenwald, expert chez ESET France, démonte les fausses bonnes idées et plaide pour une approche radicalement plus cohérente.",
-      "author": "La Rédaction",
-      "date": "2026-03-23 00:00:00",
+      "title": "Kit Coruna : nul n’est inviolable, même l’iPhone",
+      "link": "https://incyber.org/article/kit-coruna-nul-nest-inviolable-meme-liphone/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-flowers-3-2160x735.jpg",
+      "excerpt": "Si la plateforme Apple a la réputation d’être plus sûre et moins attaquée que la base installée Windows, elle n’est pas exempte de vulnérabilités. Celles-ci sont notamment exploitées par les acteurs étatiques à des fins d’espionnage ou dans le cadre d’enquêtes judiciaires. Sur ce plan, l’exemple de Coruna est édifiant, puisque ce kit d’exploitation de vulnérabilités iOS utilisé par des cybercriminels pourrait bien provenir de ces acteurs…",
+      "author": "Alain Clapaud",
+      "date": "2026-03-27 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -241,6 +241,46 @@
       "image_url": "https://incyber.org//wp-content/uploads/2023/12/incyber-news-cybersecurity-data-protection-limit-2160x735.jpg",
       "excerpt": "Trout Software a été fondé en 2022 par deux frères : Romain, ayant fait ses armes  chez Oracle, et Florian, ancien de chez  Google dans la sécurité. La société développe Access Gate, une solution capable de transformer un réseau industriel historiquement cloisonné en architecture Zero Trust, sans agent et sans arrêt d'activité. Dans un marché dominé par des acteurs américains, la startup franco-européenne fait le pari d'une souveraineté on-premise sur un segment que personne n'avait jamais vraiment résolu : le contrôle d'accès et le proxy de sécurité pour les réseaux OT.",
       "author": "En savoir plus",
+      "date": "2026-03-23 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
+      "hash": "8e9d84985925bea9ac0875a94de1ec60238e75f4d57a28632c08317986f015ac",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Moltbook, répétition générale d’un web pour agents d’IA ?",
+      "link": "https://incyber.org/article/moltbook-repetition-generale-dun-web-pour-agents-dia/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-ia-human-machine-3-2160x735.jpg",
+      "excerpt": "Derrière son apparence de curiosité virale, Moltbook agit surtout comme un révélateur. En quelques semaines, ce site a cristallisé les promesses, les ambiguïtés et les fragilités de l’IA agentique, au point d’attirer à la fois l’attention des médias, des chercheurs en cybersécurité et de Meta.",
+      "author": "Fabrice Deblock",
+      "date": "2026-03-23 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
+      "hash": "2a839442f656ce7f49c9b0d4a3ae5e5c6d75189da9fd6f77a0b538b1b23afa61",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Pourquoi l’empilement d’outils fragilise la cybersécurité des organisations",
+      "link": "https://incyber.org/article/pourquoi-lempilement-doutils-fragilise-la-cybersecurite-des-organisations/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/05/incyber-news-cybersecurite-cybersecurity-cyberespace-2-2024-2160x735.jpg",
+      "excerpt": "Surface d'attaque élargie, pression réglementaire avec NIS2, groupes APT aux aguets — la cybersécurité des entreprises de taille intermédiaire n'a jamais été aussi complexe. Benoit Grünenwald, expert chez ESET France, démonte les fausses bonnes idées et plaide pour une approche radicalement plus cohérente.",
+      "author": "La Rédaction",
       "date": "2026-03-23 00:00:00",
       "tags": [
         "Cyber stabilité",
@@ -281,7 +321,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2026/03/whatsapp-image-2026-03-09-at-19-44-38-1-1536x735.jpeg",
       "excerpt": "« Should I stay or should I go », chantait The Clash en 1982 : « If I stay, it will be trouble; if I go, it will be double ». Un dilemme qui résume bien la position des États et entreprises face à Palantir. La société offre des outils d’aide à la décision extraordinairement puissants, dont il semble difficile de se passer. Une puissance qui permet aussi les dérives les plus inquiétantes. Alors, Palantir, outil indispensable ou redoutable cheval de Troie ? INCYBER a enquêté.",
       "author": "Stanislas Tarnowski",
-      "date": "2026-03-10 00:00:00",
+      "date": "2026-03-27 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -341,7 +381,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/06/incyber-news-cybersecurite-cybersecurity-cyberespace-1-2024-2160x735.jpg",
       "excerpt": "Véritable rupture technologique dans la détection et le suivi de missiles, la constellation de satellites PWSA pourrait transformer la supériorité spatiale américaine. ",
       "author": "Victor Charlie",
-      "date": "2026-02-25 00:00:00",
+      "date": "2026-03-27 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -361,7 +401,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2026/02/media-episode-1-1080x735.png",
       "excerpt": "Entre régulation de façade et investissements massifs, les États-Unis jouent un double jeu avec l’industrie mondiale des logiciels espions. Si l'administration Biden a frappé fort en plaçant des géants comme NSO sur liste noire, le capitalisme américain œuvre en coulisses pour racheter et réhabiliter ces technologies de surveillance. Sous l'impulsion de Donald Trump, ce marché stratégique s'apprête désormais à vivre une nouvelle ère, où le cyberoffensif prime sur l'éthique. ",
       "author": "Juliette Barrat",
-      "date": "2026-02-24 00:00:00",
+      "date": "2026-03-27 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -381,7 +421,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-child-protection-2-2024-1920x735.jpg",
       "excerpt": "Il s’appelle Tony Allen, il est Anglais, habite la charmante ville de Stockport près de Manchester, connue pour son curieux Musée du Chapeau à la décoration colorée et amusante pour les enfants, si typiquement britannique. Vous ne connaissez pas Tony Allen, et pourtant, il est au cœur d’un jeu de décisions qui détermineront demain comment nos enfants accéderont aux réseaux sociaux, plateformes de contenus et autres applications, d’une manière adaptée à leur âge. ",
       "author": "Jean-Christophe Le Toquin",
-      "date": "2026-03-04 00:00:00",
+      "date": "2026-03-23 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -421,7 +461,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/05/incyber-news-cybersecurite-cybersecurity-data-traitement-donnees-breach-4-2024-2160x735.jpg",
       "excerpt": "La loi dite de blocage (loi n° 68-678 du 26 juillet 1968 relative à la communication de documents et renseignements d'ordre économique, commercial, industriel, financier ou technique à des personnes physiques ou morales étrangères telle qu’amendée), qui s’apparente davantage à une loi de filtrage, longtemps perçue comme un instrument juridique théorique et peu appliqué, est en train de s’imposer comme un outil central de la souveraineté cyber et économique française. ",
       "author": "Raphaël Gauvain",
-      "date": "2026-03-23 00:00:00",
+      "date": "2026-03-27 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -461,47 +501,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/10/orange-cyberdefense-souhaite-racheter-la-division-cyber-de-riskco-2160x735.jpg",
       "excerpt": "Le constructeur naval va prendre une participation de 20 % dans l’accélérateur d’IA du géant de l’électronique.",
       "author": "INCYBER",
-      "date": "2026-03-16 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "a7a33abbaf75970cc5dcaec5c8eec546232c8f423236b695fe23c3af2935c906",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Snow Crash dans les pipelines : attaques sur la transformation logicielle",
-      "link": "https://incyber.org/article/snow-crash-dans-les-pipelines-attaques-sur-la-transformation-logicielle/",
-      "image_url": "https://incyber.org//wp-content/uploads/2024/06/incyber-news-sound-cybersecurite-cybersecurity-2160x735.jpg",
-      "excerpt": "Depuis six ans, les attaques les plus significatives révèlent un changement profond dans la structure même du cyber. Elles ne ciblent plus des vulnérabilités isolées, mais les mécanismes qui permettent au logiciel de se transformer, de circuler et de se propager.",
-      "author": "Jean Langlois-Berthelot",
-      "date": "2026-03-11 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "15308e410552ffebac2b12e7c75dda355a92b6ba19c2ebe3eefa8c7b9d02c120",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "La RAM, produit de luxe ?",
-      "link": "https://incyber.org/article/la-ram-produit-luxe/",
-      "image_url": "https://incyber.org//wp-content/uploads/2025/06/istock-1459757162-2160x735.jpg",
-      "excerpt": "Avec des tarifs multipliés par trois en quelques mois et qui ne devraient pas redescendre de sitôt, la crise de la mémoire vive s’installe durablement dans le paysage IT, au point de peser sur les prix de toute la filière. En cause, l’explosion de la demande des acteurs de l’IA et des capacités de production qui peinent à suivre. Au point de faire courir un risque systémique au marché ? Analyse.",
-      "author": "Stanislas Tarnowski",
-      "date": "2026-03-11 00:00:00",
+      "date": "2026-03-23 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
