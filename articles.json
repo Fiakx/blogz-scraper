@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27 13:04:50",
+  "generated_at": "2026-03-28 12:54:01",
   "count": 30,
   "articles": [
     {
@@ -8,7 +8,7 @@
       "source": "IT-Connect",
       "title": "CVE-2026-3055 : appliquez ce patch Citrix avant qu’il ne soit trop tard",
       "link": "https://www.it-connect.fr/cve-2026-3055-appliquez-ce-patch-citrix-avant-quil-ne-soit-trop-tard/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/CVE-2026-3055-appliquez-ce-patch-Citrix-avant-quil-ne-soit-trop-tard.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/CVE-2026-3055-appliquez-ce-patch-Citrix-avant-quil-ne-soit-trop-tard.jpg.webp",
       "excerpt": "Une nouvelle alerte de sécurité pour les solutions Citrix NetScaler après la découverte de 2 failles, dont l'une particulièrement inquiétante : CVE-2026-3055.",
       "author": "IT-Connect",
       "date": "2026-03-26 09:01:52",
@@ -204,7 +204,7 @@
       "source": "IT-Connect",
       "title": "Betterleaks : le nouveau scanner de secrets open source qui succède à Gitleaks",
       "link": "https://www.it-connect.fr/betterleaks-le-nouveau-scanner-de-secrets-open-source-qui-succede-a-gitleaks/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Betterleaks-nouvel-outil-secrets-scanner-open-source.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Betterleaks-nouvel-outil-secrets-scanner-open-source.jpg.webp",
       "excerpt": "L'outil open source Betterleaks, digne successeur de Gitleaks, offre une détection plus précise et rapide des secrets dans vos dépôts Git.",
       "author": "IT-Connect",
       "date": "2026-03-19 14:53:01",
@@ -501,7 +501,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/10/orange-cyberdefense-souhaite-racheter-la-division-cyber-de-riskco-2160x735.jpg",
       "excerpt": "Le constructeur naval va prendre une participation de 20 % dans l’accélérateur d’IA du géant de l’électronique.",
       "author": "INCYBER",
-      "date": "2026-03-23 00:00:00",
+      "date": "2026-03-16 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
