@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-01 13:20:30",
-  "count": 29,
+  "generated_at": "2026-04-02 13:11:56",
+  "count": 30,
   "articles": [
     {
       "hash": "0790ed13d2879dfb0154fcbc4362e13aee65ccd0d0bd3791b7bea4f18e0b3934",
@@ -31,15 +31,15 @@
       "read_time": 1
     },
     {
-      "hash": "9c1ff224e5f2da512ae6d780a6f2c691716dbd30e89c7f79e4ac0d5327cfa642",
+      "hash": "b8d454778de9c36dacb1a2e63801f8733a4b8407b603631a2a977c3d3993c7ac",
       "cat_slug": "cyber",
       "source": "IT-Connect",
-      "title": "Langflow – À peine dévoilée, déjà exploitée : attention à cette faille critique",
-      "link": "https://www.it-connect.fr/langflow-cve-2026-33017-cyberattaques-mars-2026/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Langflow-CVE-2026-33017.jpg.webp",
-      "excerpt": "En moins de 24 heures, la faille de sécurité CVE-2026-33017 présente dans Langflow est passée de divulguée à exploitée : les pirates sont décidément à l'affût.",
+      "title": "L’IA Claude a identifié une faille RCE importante dans Vim (et Emacs)",
+      "link": "https://www.it-connect.fr/ia-claude-a-identifie-une-faille-rce-importante-dans-vim-et-emacs/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Faille-Vim-decouverte-par-Claude-Code.jpg.webp",
+      "excerpt": "En analysant le code source de Vim, l'IA Claude est parvenue à identifier une faille : CVE-2026-34714. Dans la foulée, une faille dans Emacs a été identifiée.",
       "author": "IT-Connect",
-      "date": "2026-03-31 16:31:00",
+      "date": "2026-04-01 09:58:00",
       "tags": [],
       "content": "",
       "read_time": 1
@@ -59,12 +59,26 @@
       "read_time": 1
     },
     {
+      "hash": "9c1ff224e5f2da512ae6d780a6f2c691716dbd30e89c7f79e4ac0d5327cfa642",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Langflow – À peine dévoilée, déjà exploitée : attention à cette faille critique",
+      "link": "https://www.it-connect.fr/langflow-cve-2026-33017-cyberattaques-mars-2026/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Langflow-CVE-2026-33017.jpg.webp",
+      "excerpt": "En moins de 24 heures, la faille de sécurité CVE-2026-33017 présente dans Langflow est passée de divulguée à exploitée : les pirates sont décidément à l'affût.",
+      "author": "IT-Connect",
+      "date": "2026-03-31 16:31:00",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
       "hash": "25442e39ab1444baac9aa18d7b7fa2894b2b9af98e164c321a70cc10f7e36a61",
       "cat_slug": "cyber",
       "source": "IT-Connect",
       "title": "Piratage Axios : une attaque supply chain diffuse un malware RAT multi-OS",
       "link": "https://www.it-connect.fr/piratage-axios-une-attaque-supply-chain-diffuse-un-malware-rat-multi-os/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/compromission-axios-mars-2026-cyberattaque-supply-chain.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/compromission-axios-mars-2026-cyberattaque-supply-chain.jpg",
       "excerpt": "Le client HTTP surnommé Axios, téléchargé plus de 80 millions de fois par semaine, a été victime d’une attaque de la chaîne d’approvisionnement.",
       "author": "IT-Connect",
       "date": "2026-03-31 11:24:22",
@@ -199,15 +213,15 @@
       "read_time": 1
     },
     {
-      "hash": "34bb48cd79e84c55036458f8239e7af20b81d9659bf4ea0dedb51012ba7030b0",
+      "hash": "97f3bd8b9af8db127ca3ebfddeb4421a1778a32dc7c23f27d477a4712ff96b92",
       "cat_slug": "cyber",
       "source": "INCYBER",
-      "title": "APT : ces groupes qui opèrent dans l’ombre des États",
-      "link": "https://incyber.org/article/apt-ces-groupes-qui-operent-dans-lombre-des-etats/",
-      "image_url": "https://incyber.org//wp-content/uploads/2024/05/capture-decran-2024-05-30-a-14-10-26-1512x735.png",
-      "excerpt": "Toutes les cyberattaques ne visent pas un gain immédiat. Certaines s’inscrivent dans des stratégies de long terme, où l’enjeu n’est ni la visibilité ni la rapidité, mais la discrétion et la persistance. C’est le terrain des APT — ces groupes souvent liés à des États, spécialisés dans le cyberespionnage et le sabotage.",
-      "author": "La Rédaction",
-      "date": "2026-03-30 00:00:00",
+      "title": "Où en sont les entreprises françaises dans la gouvernance de leurs données à l’ère de l’IA?",
+      "link": "https://incyber.org/article/ou-en-sont-les-entreprises-francaises-dans-la-gouvernance-de-leurs-donnees-a-lere-de-lia/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-8-2160x735.jpg",
+      "excerpt": "À l'heure où les cyberattaques se multiplient et où les fuites de données massives défraient la chronique quotidiennement, la protection et la gouvernance des données s'imposent comme des enjeux stratégiques majeurs pour les entreprises françaises. En 2024, la Commission Nationale de l'Informatique et des Libertés (CNIL) a enregistré un nombre record de violations de données (notamment avec l’organisation des Jeux Olympiques), soulignant l'urgence d'une réponse structurelle.",
+      "author": "Jean Michel GALLEBY",
+      "date": "2026-04-01 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -487,7 +501,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/05/incyber-news-cybersecurite-cybersecurity-data-traitement-donnees-breach-4-2024-2160x735.jpg",
       "excerpt": "La loi dite de blocage (loi n° 68-678 du 26 juillet 1968 relative à la communication de documents et renseignements d'ordre économique, commercial, industriel, financier ou technique à des personnes physiques ou morales étrangères telle qu’amendée), qui s’apparente davantage à une loi de filtrage, longtemps perçue comme un instrument juridique théorique et peu appliqué, est en train de s’imposer comme un outil central de la souveraineté cyber et économique française. ",
       "author": "Raphaël Gauvain",
-      "date": "2026-03-30 00:00:00",
+      "date": "2026-04-01 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
