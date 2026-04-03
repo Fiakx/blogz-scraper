@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02 13:11:56",
+  "generated_at": "2026-04-03 13:02:16",
   "count": 30,
   "articles": [
     {
@@ -78,7 +78,7 @@
       "source": "IT-Connect",
       "title": "Piratage Axios : une attaque supply chain diffuse un malware RAT multi-OS",
       "link": "https://www.it-connect.fr/piratage-axios-une-attaque-supply-chain-diffuse-un-malware-rat-multi-os/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/compromission-axios-mars-2026-cyberattaque-supply-chain.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/compromission-axios-mars-2026-cyberattaque-supply-chain.jpg.webp",
       "excerpt": "Le client HTTP surnommé Axios, téléchargé plus de 80 millions de fois par semaine, a été victime d’une attaque de la chaîne d’approvisionnement.",
       "author": "IT-Connect",
       "date": "2026-03-31 11:24:22",
@@ -213,15 +213,15 @@
       "read_time": 1
     },
     {
-      "hash": "97f3bd8b9af8db127ca3ebfddeb4421a1778a32dc7c23f27d477a4712ff96b92",
+      "hash": "11e0d1612bbdfbc31f063c19982c159ff79dc1ba06b57707b807742063f4cde2",
       "cat_slug": "cyber",
       "source": "INCYBER",
-      "title": "Où en sont les entreprises françaises dans la gouvernance de leurs données à l’ère de l’IA?",
-      "link": "https://incyber.org/article/ou-en-sont-les-entreprises-francaises-dans-la-gouvernance-de-leurs-donnees-a-lere-de-lia/",
-      "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-8-2160x735.jpg",
-      "excerpt": "À l'heure où les cyberattaques se multiplient et où les fuites de données massives défraient la chronique quotidiennement, la protection et la gouvernance des données s'imposent comme des enjeux stratégiques majeurs pour les entreprises françaises. En 2024, la Commission Nationale de l'Informatique et des Libertés (CNIL) a enregistré un nombre record de violations de données (notamment avec l’organisation des Jeux Olympiques), soulignant l'urgence d'une réponse structurelle.",
-      "author": "Jean Michel GALLEBY",
-      "date": "2026-04-01 00:00:00",
+      "title": "Compagnons IA : derrière l’empathie, la collecte des données",
+      "link": "https://incyber.org/article/compagnons-ia-derriere-empathie-collecte-donnees/",
+      "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-chatbot-2024-1920x735.jpg",
+      "excerpt": "Les compagnons IA attirent déjà des millions d’utilisateurs dans le monde. Mais derrière une promesse relationnelle forte se dessine une autre réalité : celle d’une collecte massive de données personnelles dont les finalités, la durée de conservation et les conditions d’exploitation restent souvent mal comprises par les utilisateurs.",
+      "author": "Fabrice Deblock",
+      "date": "2026-04-03 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -242,6 +242,46 @@
       "excerpt": "Trout Software a été fondé en 2022 par deux frères : Romain, ayant fait ses armes  chez Oracle, et Florian, ancien de chez  Google dans la sécurité. La société développe Access Gate, une solution capable de transformer un réseau industriel historiquement cloisonné en architecture Zero Trust, sans agent et sans arrêt d'activité. Dans un marché dominé par des acteurs américains, la startup franco-européenne fait le pari d'une souveraineté on-premise sur un segment que personne n'avait jamais vraiment résolu : le contrôle d'accès et le proxy de sécurité pour les réseaux OT.",
       "author": "En savoir plus",
       "date": "2026-03-23 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
+      "hash": "9c23ada9b65e7d4f2cdd827c0c9417567793a2e09ad15d5ce2ba2b156e1833d8",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Levées de fonds : la cybersécurité a le vent en poupe en Europe",
+      "link": "https://incyber.org/article/levees-de-fonds-la-cybersecurite-a-le-vent-en-poupe-en-europe/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/06/istock-1384205321-2160x735.jpg",
+      "excerpt": "Malgré une contraction des montants levés tous secteurs confondus, les investissements cyber progressent de 83 % sur le Vieux Continent.",
+      "author": "La Rédaction",
+      "date": "2026-04-03 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
+      "hash": "97f3bd8b9af8db127ca3ebfddeb4421a1778a32dc7c23f27d477a4712ff96b92",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Où en sont les entreprises françaises dans la gouvernance de leurs données à l’ère de l’IA?",
+      "link": "https://incyber.org/article/ou-en-sont-les-entreprises-francaises-dans-la-gouvernance-de-leurs-donnees-a-lere-de-lia/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-8-2160x735.jpg",
+      "excerpt": "À l'heure où les cyberattaques se multiplient et où les fuites de données massives défraient la chronique quotidiennement, la protection et la gouvernance des données s'imposent comme des enjeux stratégiques majeurs pour les entreprises françaises. En 2024, la Commission Nationale de l'Informatique et des Libertés (CNIL) a enregistré un nombre record de violations de données (notamment avec l’organisation des Jeux Olympiques), soulignant l'urgence d'une réponse structurelle.",
+      "author": "Jean Michel GALLEBY",
+      "date": "2026-04-01 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -401,7 +441,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-8-2160x735.jpg",
       "excerpt": "Donald Trump a sanctionné le refus du géant de l’IA de lever ses restrictions éthiques sur la surveillance de masse et les armes autonomes.",
       "author": "La Rédaction",
-      "date": "2026-03-23 00:00:00",
+      "date": "2026-03-30 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -462,46 +502,6 @@
       "excerpt": "Il s’appelle Tony Allen, il est Anglais, habite la charmante ville de Stockport près de Manchester, connue pour son curieux Musée du Chapeau à la décoration colorée et amusante pour les enfants, si typiquement britannique. Vous ne connaissez pas Tony Allen, et pourtant, il est au cœur d’un jeu de décisions qui détermineront demain comment nos enfants accéderont aux réseaux sociaux, plateformes de contenus et autres applications, d’une manière adaptée à leur âge. ",
       "author": "Jean-Christophe Le Toquin",
       "date": "2026-03-23 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "0f391adfd4aa7be3202a73cdc7708f87838c5e597fe8177caae9149670e26dfa",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Bitchat : une “application de survie” pour résister aux coupures d’internet",
-      "link": "https://incyber.org/article/bitchat-application-survie-pour-resister-coupures-dinternet/",
-      "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-data-donnees-4-2024-1920x735.jpg",
-      "excerpt": "Un simple geste, trois pressions sur un logo, et toute trace de discussion disparaît. En Iran, BitChat est bien plus qu'une application : c'est une bouée de sauvetage numérique pour des milliers de protestataires privés de réseau mondial. Grâce à une architecture unique sans serveurs, cette messagerie permet à l'information de circuler de téléphone en téléphone, tel un “bouche-à-oreille” électronique. ",
-      "author": "INCYBER",
-      "date": "2026-03-04 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "83afd628b14925c6c3624be5819fe0c80cb5112f6cd2b4ff6d96ecdb114f8c01",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Loi de blocage et cyber : vers un tournant répressif au nom de la souveraineté informationnelle",
-      "link": "https://incyber.org/article/loi-de-blocage-et-cyber-vers-un-tournant-repressif-au-nom-de-la-souverainete-informationnelle/",
-      "image_url": "https://incyber.org//wp-content/uploads/2024/05/incyber-news-cybersecurite-cybersecurity-data-traitement-donnees-breach-4-2024-2160x735.jpg",
-      "excerpt": "La loi dite de blocage (loi n° 68-678 du 26 juillet 1968 relative à la communication de documents et renseignements d'ordre économique, commercial, industriel, financier ou technique à des personnes physiques ou morales étrangères telle qu’amendée), qui s’apparente davantage à une loi de filtrage, longtemps perçue comme un instrument juridique théorique et peu appliqué, est en train de s’imposer comme un outil central de la souveraineté cyber et économique française. ",
-      "author": "Raphaël Gauvain",
-      "date": "2026-04-01 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
