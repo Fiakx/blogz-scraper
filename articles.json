@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-04-08 13:19:01",
+  "generated_at": "2026-04-09 13:26:12",
   "count": 30,
   "articles": [
+    {
+      "hash": "118c19595655befea7e705b538e265d5f903cdd6228d18f3c5beef1f46a38493",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "E-commerce : une image SVG est utilisée pour voler les données bancaires",
+      "link": "https://www.it-connect.fr/e-commerce-une-image-svg-est-utilisee-pour-voler-les-donnees-bancaires/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/E-commerce-une-image-SVG-est-utilisee-pour-voler-les-donnees-bancaires.jpg.webp",
+      "excerpt": "Les pirates utilisent des boutiques Magento compromises avec PolyShell pour voler les numéros de cartes bancaires des clients à l'aide d'une image SVG.",
+      "author": "IT-Connect",
+      "date": "2026-04-09 09:05:45",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "44acc4d7e523200a527820d54ec6e08f870390a70f5937a3a08211525629bf61",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Docker : la faille CVE-2026-34040 permet d’obtenir un accès root sur l’hôte !",
+      "link": "https://www.it-connect.fr/docker-la-faille-cve-2026-34040-permet-dobtenir-un-acces-root-sur-lhote/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Docker-la-faille-CVE-2026-34040-permet-dobtenir-un-acces-root-sur-lhote.jpg",
+      "excerpt": "CVE-2026-34040 : une nouvelle faille de sécurité importante a été découverte dans Docker Engine. Elle permet de contourner le plugin Authz via une requête HTTP.",
+      "author": "IT-Connect",
+      "date": "2026-04-08 17:56:00",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "dda82e95625184af5cc3cd0cb3c9327bb0ac03821885af6bf06cdc00164e53f3",
       "cat_slug": "cyber",
@@ -50,7 +78,7 @@
       "source": "IT-Connect",
       "title": "Le mainteneur d’Axios piégé sur Teams par une attaque ClickFix sophistiquée !",
       "link": "https://www.it-connect.fr/le-mainteneur-axios-piege-sur-teams-par-une-attaque-clickfix-sophistiquee/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Le-mainteneur-dAxios-piege-sur-Teams-par-une-attaque-ClickFix-sophistiquee.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Le-mainteneur-dAxios-piege-sur-Teams-par-une-attaque-ClickFix-sophistiquee.jpg.webp",
       "excerpt": "Une attaque par ingénierie sociale de type ClickFix, orchestrée via Slack et Teams, est à l'origine de la compromission du compte du mainteneur d'Axios.",
       "author": "IT-Connect",
       "date": "2026-04-07 09:23:04",
@@ -185,31 +213,63 @@
       "read_time": 1
     },
     {
-      "hash": "28cc30a65e3dff149df77892a67bb93c2a64a7851fc2fcebe822208d13eb1360",
+      "hash": "0af86924c072ee2217e4fef378e95fa6bc89362a3ee63132eef703c3100e0b5c",
       "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Le patron du FBI s’est fait hacker sa boîte mail personnelle par le groupe Handala",
-      "link": "https://www.it-connect.fr/le-patron-du-fbi-sest-fait-hacker-sa-boite-mail-personnelle-par-le-groupe-handala/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Le-patron-du-FBI-sest-fait-hacker-sa-boite-mail-personnelle-par-le-groupe-Handala.jpg.webp",
-      "excerpt": "Le groupe de pirates Handala lié à l'Iran est parvenu à compromettre la boîte mail de Kash Patel, le directeur du FBI en personne. Des données ont été volées.",
-      "author": "IT-Connect",
-      "date": "2026-03-30 14:50:28",
-      "tags": [],
-      "content": "",
+      "source": "INCYBER",
+      "title": "IAPP Global Summit 2026 — À Washington, la gouvernance des données passe en production",
+      "link": "https://incyber.org/article/iapp-global-summit-2026-washington-gouvernance-donnees-passe-production/",
+      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/07/usa-the-white-house-plans-to-radically-overhaul-its-national-cybersecurity-strategy-1365x735.jpg",
+      "excerpt": "Du 30 mars au 2 avril 2026, à Washington D.C., entre le Walter E. Washington Convention Center et le Marriott Marquis, la International Association of Privacy Professionals (IAPP) a confirmé un basculement déjà perceptible depuis deux ans : la privacy sort du cadre de la conformité pour devenir une fonction de pilotage des systèmes numériques.",
+      "author": "Jean Langlois-Berthelot",
+      "date": "2026-04-07 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
       "read_time": 1
     },
     {
-      "hash": "55cab9a4e77a87b9e1565d244f3188c12f506ae376afa5c533c7253f07f60c83",
+      "hash": "d5d8056af4f6e5cbe421402f316eb9f0acfd7b29fbcc34d138f9819f9381756e",
       "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "CVE-2026-3055 : appliquez ce patch Citrix avant qu’il ne soit trop tard",
-      "link": "https://www.it-connect.fr/cve-2026-3055-appliquez-ce-patch-citrix-avant-quil-ne-soit-trop-tard/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/CVE-2026-3055-appliquez-ce-patch-Citrix-avant-quil-ne-soit-trop-tard.jpg.webp",
-      "excerpt": "Une nouvelle alerte de sécurité pour les solutions Citrix NetScaler après la découverte de 2 failles, dont l'une particulièrement inquiétante : CVE-2026-3055.",
-      "author": "IT-Connect",
-      "date": "2026-03-26 09:01:52",
-      "tags": [],
-      "content": "",
+      "source": "INCYBER",
+      "title": "Trout Software, le Zero Trust industriel made in Europe",
+      "link": "https://incyber.org/article/trout-software-le-zero-trust-industriel-made-in-europe/",
+      "image_url": "https://incyber.org//wp-content/uploads/2023/12/incyber-news-cybersecurity-data-protection-limit-2160x735.jpg",
+      "excerpt": "Trout Software a été fondé en 2022 par deux frères : Romain, ayant fait ses armes  chez Oracle, et Florian, ancien de chez  Google dans la sécurité. La société développe Access Gate, une solution capable de transformer un réseau industriel historiquement cloisonné en architecture Zero Trust, sans agent et sans arrêt d'activité. Dans un marché dominé par des acteurs américains, la startup franco-européenne fait le pari d'une souveraineté on-premise sur un segment que personne n'avait jamais vraiment résolu : le contrôle d'accès et le proxy de sécurité pour les réseaux OT.",
+      "author": "En savoir plus",
+      "date": "2026-04-07 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
+      "hash": "9c23ada9b65e7d4f2cdd827c0c9417567793a2e09ad15d5ce2ba2b156e1833d8",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Levées de fonds : la cybersécurité a le vent en poupe en Europe",
+      "link": "https://incyber.org/article/levees-de-fonds-la-cybersecurite-a-le-vent-en-poupe-en-europe/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/06/istock-1384205321-2160x735.jpg",
+      "excerpt": "Malgré une contraction des montants levés tous secteurs confondus, les investissements cyber progressent de 83 % sur le Vieux Continent.",
+      "author": "La Rédaction",
+      "date": "2026-04-07 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
       "read_time": 1
     },
     {
@@ -233,46 +293,6 @@
       "read_time": 1
     },
     {
-      "hash": "d5d8056af4f6e5cbe421402f316eb9f0acfd7b29fbcc34d138f9819f9381756e",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Trout Software, le Zero Trust industriel made in Europe",
-      "link": "https://incyber.org/article/trout-software-le-zero-trust-industriel-made-in-europe/",
-      "image_url": "https://incyber.org//wp-content/uploads/2023/12/incyber-news-cybersecurity-data-protection-limit-2160x735.jpg",
-      "excerpt": "Trout Software a été fondé en 2022 par deux frères : Romain, ayant fait ses armes  chez Oracle, et Florian, ancien de chez  Google dans la sécurité. La société développe Access Gate, une solution capable de transformer un réseau industriel historiquement cloisonné en architecture Zero Trust, sans agent et sans arrêt d'activité. Dans un marché dominé par des acteurs américains, la startup franco-européenne fait le pari d'une souveraineté on-premise sur un segment que personne n'avait jamais vraiment résolu : le contrôle d'accès et le proxy de sécurité pour les réseaux OT.",
-      "author": "En savoir plus",
-      "date": "2026-03-23 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "9c23ada9b65e7d4f2cdd827c0c9417567793a2e09ad15d5ce2ba2b156e1833d8",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Levées de fonds : la cybersécurité a le vent en poupe en Europe",
-      "link": "https://incyber.org/article/levees-de-fonds-la-cybersecurite-a-le-vent-en-poupe-en-europe/",
-      "image_url": "https://incyber.org//wp-content/uploads/2025/06/istock-1384205321-2160x735.jpg",
-      "excerpt": "Malgré une contraction des montants levés tous secteurs confondus, les investissements cyber progressent de 83 % sur le Vieux Continent.",
-      "author": "La Rédaction",
-      "date": "2026-04-03 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
       "hash": "97f3bd8b9af8db127ca3ebfddeb4421a1778a32dc7c23f27d477a4712ff96b92",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -281,7 +301,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-8-2160x735.jpg",
       "excerpt": "À l'heure où les cyberattaques se multiplient et où les fuites de données massives défraient la chronique quotidiennement, la protection et la gouvernance des données s'imposent comme des enjeux stratégiques majeurs pour les entreprises françaises. En 2024, la Commission Nationale de l'Informatique et des Libertés (CNIL) a enregistré un nombre record de violations de données (notamment avec l’organisation des Jeux Olympiques), soulignant l'urgence d'une réponse structurelle.",
       "author": "Jean Michel GALLEBY",
-      "date": "2026-04-01 00:00:00",
+      "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -301,7 +321,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-cybersecurite-cybersecurity-pays-countries-attack-2024-2160x735.jpg",
       "excerpt": "Le Paris Defence and Strategy Forum 2026 n’était pas un événement périphérique du calendrier stratégique. Sa troisième édition, organisée du 24 au 26 mars à l’École militaire par l’Académie de défense, s’inscrivait dans l’ambition assumée de faire rayonner la pensée stratégique française et européenne, à un moment où les dépendances économiques et numériques sont de plus en plus instrumentalisées. Le forum a réuni des responsables militaires, des chercheurs, des industriels et des décideurs publics autour d’un fil rouge consacré aux souverainetés, aux alliances et aux partenariats. Pour qui observait le volet cyber, une impression dominait : l’Europe ne cherche plus seulement des outils, elle cherche une doctrine. ",
       "author": "Jean Langlois-Berthelot",
-      "date": "2026-03-30 00:00:00",
+      "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -321,7 +341,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-war-weapon-cybersecurite-cybersecurity-2000x735.jpg",
       "excerpt": "Dans l'opération Epic Fury, le Maven Smart System de Palantir a permis aux États-Unis de frapper 1 000 cibles dans les 24 premières heures de la guerre. À ce rythme, le temps disponible par décision de ciblage ne dépasserait pas quelques dizaines de secondes.",
       "author": "Adèle Forveille",
-      "date": "2026-03-30 00:00:00",
+      "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -381,7 +401,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/10/canada-indian-ddos-attack-against-military-and-parliament-websites-2160x735.jpg",
       "excerpt": "Le gouvernement fédéral a déposé un projet de loi en ce sens à la Chambre des communes.",
       "author": "La Rédaction",
-      "date": "2026-03-16 00:00:00",
+      "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -421,7 +441,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-child-protection-2-2024-1920x735.jpg",
       "excerpt": "Validé en commission par les représentants républicains, le texte proposerait, selon leurs opposants, un cadre légal moins sûr que celui actuellement en vigueur.",
       "author": "La Rédaction",
-      "date": "2026-04-03 00:00:00",
+      "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -461,7 +481,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/06/incyber-news-cybersecurite-cybersecurity-cyberespace-1-2024-2160x735.jpg",
       "excerpt": "Véritable rupture technologique dans la détection et le suivi de missiles, la constellation de satellites PWSA pourrait transformer la supériorité spatiale américaine. ",
       "author": "Victor Charlie",
-      "date": "2026-03-27 00:00:00",
+      "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -481,26 +501,6 @@
       "image_url": "https://incyber.org//wp-content/uploads/2026/02/media-episode-1-1080x735.png",
       "excerpt": "Entre régulation de façade et investissements massifs, les États-Unis jouent un double jeu avec l’industrie mondiale des logiciels espions. Si l'administration Biden a frappé fort en plaçant des géants comme NSO sur liste noire, le capitalisme américain œuvre en coulisses pour racheter et réhabiliter ces technologies de surveillance. Sous l'impulsion de Donald Trump, ce marché stratégique s'apprête désormais à vivre une nouvelle ère, où le cyberoffensif prime sur l'éthique. ",
       "author": "Juliette Barrat",
-      "date": "2026-03-27 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "5b8eac7962f9fb8d2dc42fc075f17f381811c4601dd6a4f9d2cc8145635f8960",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Contrôle d’accès des mineurs aux réseaux sociaux : l’accord mondial",
-      "link": "https://incyber.org/article/controle-dacces-des-mineurs-aux-reseaux-sociaux-laccord-mondial/",
-      "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-child-protection-2-2024-1920x735.jpg",
-      "excerpt": "Il s’appelle Tony Allen, il est Anglais, habite la charmante ville de Stockport près de Manchester, connue pour son curieux Musée du Chapeau à la décoration colorée et amusante pour les enfants, si typiquement britannique. Vous ne connaissez pas Tony Allen, et pourtant, il est au cœur d’un jeu de décisions qui détermineront demain comment nos enfants accéderont aux réseaux sociaux, plateformes de contenus et autres applications, d’une manière adaptée à leur âge. ",
-      "author": "Jean-Christophe Le Toquin",
       "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
