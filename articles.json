@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-04-09 13:26:12",
+  "generated_at": "2026-04-10 13:07:40",
   "count": 30,
   "articles": [
+    {
+      "hash": "cc5e4cf31afa2d392565ef21877cb5e267569ee024d6ad46ccc8ffd0beacc2ae",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Un PDF suffit : cette faille zero-day Adobe Reader menace vos données",
+      "link": "https://www.it-connect.fr/un-pdf-suffit-cette-faille-zero-day-adobe-reader-menace-vos-donnees/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Adobe-Reader-Cette-zero-day-permet-de-voler-des-donnees-depuis-decembre-2025.jpg.webp",
+      "excerpt": "Depuis décembre 2025, cette faille zero-day dans Adobe Reader est exploitée pour voler des données. L'ouverture d'un PDF piégé suffit à déclencher l'attaque.",
+      "author": "IT-Connect",
+      "date": "2026-04-10 09:10:40",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "118c19595655befea7e705b538e265d5f903cdd6228d18f3c5beef1f46a38493",
       "cat_slug": "cyber",
@@ -22,7 +36,7 @@
       "source": "IT-Connect",
       "title": "Docker : la faille CVE-2026-34040 permet d’obtenir un accès root sur l’hôte !",
       "link": "https://www.it-connect.fr/docker-la-faille-cve-2026-34040-permet-dobtenir-un-acces-root-sur-lhote/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Docker-la-faille-CVE-2026-34040-permet-dobtenir-un-acces-root-sur-lhote.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Docker-la-faille-CVE-2026-34040-permet-dobtenir-un-acces-root-sur-lhote.jpg.webp",
       "excerpt": "CVE-2026-34040 : une nouvelle faille de sécurité importante a été découverte dans Docker Engine. Elle permet de contourner le plugin Authz via une requête HTTP.",
       "author": "IT-Connect",
       "date": "2026-04-08 17:56:00",
@@ -199,28 +213,14 @@
       "read_time": 1
     },
     {
-      "hash": "459ed4d2b2091d9199dd8f2bf36134fc0eaa41cade190859e914ed83cdc39250",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Piratage Commission européenne : 350 Go de données volées sur des serveurs AWS",
-      "link": "https://www.it-connect.fr/piratage-commission-europeenne-350-go-de-donnees-volees-sur-des-serveurs-aws/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Fuite-de-donnees-Europa.eu-Europe.jpg.webp",
-      "excerpt": "Le groupe de pirates ShinyHunters a revendiqué une cyberattaque contre la Commission européenne, et plus particulièrement la plateforme web Europa.eu.",
-      "author": "IT-Connect",
-      "date": "2026-03-31 09:53:36",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "0af86924c072ee2217e4fef378e95fa6bc89362a3ee63132eef703c3100e0b5c",
+      "hash": "20e34ed409423108999bf998dc4c92b159084a5a0d01e9e0baa21f2d6401988a",
       "cat_slug": "cyber",
       "source": "INCYBER",
-      "title": "IAPP Global Summit 2026 — À Washington, la gouvernance des données passe en production",
-      "link": "https://incyber.org/article/iapp-global-summit-2026-washington-gouvernance-donnees-passe-production/",
-      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/07/usa-the-white-house-plans-to-radically-overhaul-its-national-cybersecurity-strategy-1365x735.jpg",
-      "excerpt": "Du 30 mars au 2 avril 2026, à Washington D.C., entre le Walter E. Washington Convention Center et le Marriott Marquis, la International Association of Privacy Professionals (IAPP) a confirmé un basculement déjà perceptible depuis deux ans : la privacy sort du cadre de la conformité pour devenir une fonction de pilotage des systèmes numériques.",
-      "author": "Jean Langlois-Berthelot",
+      "title": "Forum INCYBER 2026Dépendances numériques : l’Europe à l’heure des choix",
+      "link": "https://incyber.org/article/forum-incyber-2026-dependances-numeriques-leurope-heure-choix/",
+      "image_url": "https://incyber.org//wp-content/uploads/2024/03/incyber-news-cybersecurite-cybersecurity-europe-2160x735.jpg",
+      "excerpt": "L’Europe a longtemps parlé de souveraineté numérique comme d’un horizon lointain, sans vraiment assumer son rôle de puissance. À l’édition 2026 du Forum INCYBER, le ton a changé. Élus, régulateurs, militaires, financiers et industriels décrivent désormais un Vieux Continent sommé de se réveiller pour ne pas subir ses dépendances technologiques. ",
+      "author": "Xavier Biseul",
       "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
@@ -242,6 +242,26 @@
       "excerpt": "Trout Software a été fondé en 2022 par deux frères : Romain, ayant fait ses armes  chez Oracle, et Florian, ancien de chez  Google dans la sécurité. La société développe Access Gate, une solution capable de transformer un réseau industriel historiquement cloisonné en architecture Zero Trust, sans agent et sans arrêt d'activité. Dans un marché dominé par des acteurs américains, la startup franco-européenne fait le pari d'une souveraineté on-premise sur un segment que personne n'avait jamais vraiment résolu : le contrôle d'accès et le proxy de sécurité pour les réseaux OT.",
       "author": "En savoir plus",
       "date": "2026-04-07 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
+      "hash": "f2ebdfba1868e5739997b0721012f54df91bc6f75b98a25820def10aad3ea5a6",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Le gouverneur du Minnesota déploie la garde nationale dans un comté après une cyberattaque",
+      "link": "https://incyber.org/article/gouverneur-minnesota-deploie-garde-nationale-dans-comte-apres-cyberattaque/",
+      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/07/usa-the-white-house-plans-to-radically-overhaul-its-national-cybersecurity-strategy-1365x735.jpg",
+      "excerpt": "Il entend ainsi « garantir la continuité des services municipaux vitaux ».",
+      "author": "La Rédaction",
+      "date": "2026-04-08 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -481,26 +501,6 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/06/incyber-news-cybersecurite-cybersecurity-cyberespace-1-2024-2160x735.jpg",
       "excerpt": "Véritable rupture technologique dans la détection et le suivi de missiles, la constellation de satellites PWSA pourrait transformer la supériorité spatiale américaine. ",
       "author": "Victor Charlie",
-      "date": "2026-04-07 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "3af114e42087dc45ef995c62ca5e8ec938d9db5c65237b696cebb604da2c1ca9",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Route de la surveillance – épisode 5 :États-Unis, trouble jeu sur la cybersurveillance",
-      "link": "https://incyber.org/article/route-surveillance-etats-unis-cybersurveillance/",
-      "image_url": "https://incyber.org//wp-content/uploads/2026/02/media-episode-1-1080x735.png",
-      "excerpt": "Entre régulation de façade et investissements massifs, les États-Unis jouent un double jeu avec l’industrie mondiale des logiciels espions. Si l'administration Biden a frappé fort en plaçant des géants comme NSO sur liste noire, le capitalisme américain œuvre en coulisses pour racheter et réhabiliter ces technologies de surveillance. Sous l'impulsion de Donald Trump, ce marché stratégique s'apprête désormais à vivre une nouvelle ère, où le cyberoffensif prime sur l'éthique. ",
-      "author": "Juliette Barrat",
       "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
