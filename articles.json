@@ -1,14 +1,42 @@
 {
-  "generated_at": "2026-04-12 12:59:49",
+  "generated_at": "2026-04-13 13:24:21",
   "count": 30,
   "articles": [
+    {
+      "hash": "3999ba5657f21692f9854103f8bc2dc2fe37dbc0638ab24bf2f1f6aa88b88cdf",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Piratage Basic-Fit : les données bancaires d’un million de membres volées !",
+      "link": "https://www.it-connect.fr/piratage-basic-fit-les-donnees-bancaires-dun-million-de-membres-volees/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Basic-Fit-Fuite-de-donnees-bancaires-2026.jpg",
+      "excerpt": "Le piratage de Basic-Fit affecte près d'un million de clients, dont des Français ! Cette fuite de données contient des données personnelles et bancaires !",
+      "author": "IT-Connect",
+      "date": "2026-04-13 14:29:15",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "fd75e0705bc9ca68a6f132b0fd4d7aa0ecb97924cb49cb38438e9a69bce548d5",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Les outils CPU-Z et HWMonitor piégés par un malware !",
+      "link": "https://www.it-connect.fr/les-outils-cpu-z-et-hwmonitor-pieges-par-un-malware/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Piratage-CPUID-Versions-infectees-CPU-Z-et-HWMonitor.jpg.webp",
+      "excerpt": "Des pirates sont parvenus à avoir accès à l'API du projet CPUID, ce qui leur a permis de distribuer des versions infectées de CPU-Z et HWMonitor.",
+      "author": "IT-Connect",
+      "date": "2026-04-13 07:32:39",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "cc5e4cf31afa2d392565ef21877cb5e267569ee024d6ad46ccc8ffd0beacc2ae",
       "cat_slug": "cyber",
       "source": "IT-Connect",
       "title": "Un PDF suffit : cette faille zero-day Adobe Reader menace vos données",
       "link": "https://www.it-connect.fr/un-pdf-suffit-cette-faille-zero-day-adobe-reader-menace-vos-donnees/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Adobe-Reader-Cette-zero-day-permet-de-voler-des-donnees-depuis-decembre-2025.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Adobe-Reader-Cette-zero-day-permet-de-voler-des-donnees-depuis-decembre-2025.jpg.webp",
       "excerpt": "Depuis décembre 2025, cette faille zero-day dans Adobe Reader est exploitée pour voler des données. L'ouverture d'un PDF piégé suffit à déclencher l'attaque.",
       "author": "IT-Connect",
       "date": "2026-04-10 09:10:40",
@@ -185,34 +213,6 @@
       "read_time": 1
     },
     {
-      "hash": "9c1ff224e5f2da512ae6d780a6f2c691716dbd30e89c7f79e4ac0d5327cfa642",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Langflow – À peine dévoilée, déjà exploitée : attention à cette faille critique",
-      "link": "https://www.it-connect.fr/langflow-cve-2026-33017-cyberattaques-mars-2026/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/Langflow-CVE-2026-33017.jpg.webp",
-      "excerpt": "En moins de 24 heures, la faille de sécurité CVE-2026-33017 présente dans Langflow est passée de divulguée à exploitée : les pirates sont décidément à l'affût.",
-      "author": "IT-Connect",
-      "date": "2026-03-31 16:31:00",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "25442e39ab1444baac9aa18d7b7fa2894b2b9af98e164c321a70cc10f7e36a61",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Piratage Axios : une attaque supply chain diffuse un malware RAT multi-OS",
-      "link": "https://www.it-connect.fr/piratage-axios-une-attaque-supply-chain-diffuse-un-malware-rat-multi-os/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/03/compromission-axios-mars-2026-cyberattaque-supply-chain.jpg.webp",
-      "excerpt": "Le client HTTP surnommé Axios, téléchargé plus de 80 millions de fois par semaine, a été victime d’une attaque de la chaîne d’approvisionnement.",
-      "author": "IT-Connect",
-      "date": "2026-03-31 11:24:22",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
       "hash": "20e34ed409423108999bf998dc4c92b159084a5a0d01e9e0baa21f2d6401988a",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -301,7 +301,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-chatbot-2024-1920x735.jpg",
       "excerpt": "Les compagnons IA attirent déjà des millions d’utilisateurs dans le monde. Mais derrière une promesse relationnelle forte se dessine une autre réalité : celle d’une collecte massive de données personnelles dont les finalités, la durée de conservation et les conditions d’exploitation restent souvent mal comprises par les utilisateurs.",
       "author": "Fabrice Deblock",
-      "date": "2026-04-08 00:00:00",
+      "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
