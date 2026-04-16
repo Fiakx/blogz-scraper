@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-04-15 13:22:54",
+  "generated_at": "2026-04-16 13:28:19",
   "count": 30,
   "articles": [
+    {
+      "hash": "4ff0d0ca9af558fda650794a2b5d0a0c9c2d7f5c318a6916c384513362d60736",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Piratage Booking.com : les codes PIN des réservations réinitialisés d’urgence",
+      "link": "https://www.it-connect.fr/piratage-booking-com-les-codes-pin-des-reservations-reinitialises-durgence/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Booking.com-Fuite-de-donnees-Avril-2026.jpg.webp",
+      "excerpt": "Les pirates ont pu récupérer les détails des réservations des clients, forçant Booking.com à reset les codes PIN. Voici ce que l'on sait sur cet incident.",
+      "author": "IT-Connect",
+      "date": "2026-04-15 18:02:45",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "36d7b14343e6e61076e5af15cb277f558c50129158675e93486d39e57df5b3c2",
       "cat_slug": "cyber",
@@ -78,7 +92,7 @@
       "source": "IT-Connect",
       "title": "Active Directory : comment éliminer les tickets de réinitialisation de mot de passe ?",
       "link": "https://www.it-connect.fr/active-directory-comment-eliminer-les-tickets-de-reinitialisation-de-mot-de-passe/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/active-directory-Fin-des-tickets-de-reinitialisation-de-mot-de-passe.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/active-directory-Fin-des-tickets-de-reinitialisation-de-mot-de-passe.jpg",
       "excerpt": "Un ticket de réinitialisation de mot de passe a un coût pour l'entreprise et une interruption de travail pour l'utilisateur. Voici comment résoudre ce problème.",
       "author": "IT-Connect",
       "date": "2026-04-14 09:58:00",
@@ -134,7 +148,7 @@
       "source": "IT-Connect",
       "title": "Les outils CPU-Z et HWMonitor piégés par un malware !",
       "link": "https://www.it-connect.fr/les-outils-cpu-z-et-hwmonitor-pieges-par-un-malware/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Piratage-CPUID-Versions-infectees-CPU-Z-et-HWMonitor.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Piratage-CPUID-Versions-infectees-CPU-Z-et-HWMonitor.jpg",
       "excerpt": "Des pirates sont parvenus à avoir accès à l'API du projet CPUID, ce qui leur a permis de distribuer des versions infectées de CPU-Z et HWMonitor.",
       "author": "IT-Connect",
       "date": "2026-04-13 07:32:39",
@@ -199,29 +213,15 @@
       "read_time": 1
     },
     {
-      "hash": "0012778c835ddd09015d2b2d8e781be553b096b9c38c36e79a221ff16cd1750a",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Fuite de données chez KFC France : les clients du programme fidélité touchés",
-      "link": "https://www.it-connect.fr/fuite-de-donnees-chez-kfc-france-les-clients-du-programme-fidelite-touches/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Piratage-KFC-France-en-avril-2026.jpg.webp",
-      "excerpt": "Si vous êtes membre du programme fidélité Colonel Club de KFC France, alors vos données personnelles sont probablement entre les mains des pirates !",
-      "author": "IT-Connect",
-      "date": "2026-04-08 07:19:50",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "0ce6f4da64b33f845c4eb030af5b6877eeb9b06d505e104914dfb95026d16c8b",
+      "hash": "74059206d26d5f6a242fcda66805c111406749c297fc5b500bc6ce4e3f368cb0",
       "cat_slug": "cyber",
       "source": "INCYBER",
-      "title": "Censure numérique et contournement satellitaire : la guerre de l’information au Kurdistan iranien",
-      "link": "https://incyber.org/article/censure-numerique-contournement-satellitaire-la-guerre-information-kurdistan-iranien/",
-      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/12/iranian-cybercriminals-cut-off-water-supply-in-two-irish-towns-1340x735.jpg",
-      "excerpt": "Le 8 janvier 2026, la mobilisation civile orchestrée par les partis kurdes iraniens s'est muée en une véritable guerre informationnelle contre Téhéran. Pour endiguer la contestation et isoler les militants de l’extérieur, le régime a activé son vaste appareil de censure, déclenchant un black-out numérique quasi total des télécommunications. Face à ce verrouillage du cyberespace national, la résistance civile a dû s’adapter. L'introduction clandestine de terminaux Starlink, visant à percer le rideau de fer numérique, a été perçue comme un danger immédiat par le régime des mollahs. Ainsi, la riposte tactique de l'armée iranienne avec le déploiement d'unités de guerre électronique et de brouilleurs mobiles, a eu raison de cette dissidence connectée.",
-      "author": "Pierre-Yves Baillet",
-      "date": "2026-04-15 00:00:00",
+      "title": "Le numérique pour réconcilier le citoyen avec la politique",
+      "link": "https://incyber.org/article/numerique-pour-reconcilier-citoyen-avec-politique/",
+      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/05/lindustrie-numerique-europeenne-soppose-au-data-act-2160x735.jpg",
+      "excerpt": "Les récentes élections municipales ont confirmé une forme de rejet de la politique par les citoyens, au moment où les enjeux locaux auraient dû les mobiliser. L’abstention n’est pas conjoncturelle, car elle s’observe hélas ! de scrutin en scrutin. Les élus locaux bénéficient encore d’une certaine confiance, mais ils sont emportés dans un mouvement de déconsidération de la classe politique. Les causes sont multiples, à commencer par les scandales qui ont été révélés et trouvent leur point d’orgue devant les tribunaux. Certes les cas sont minoritaires, mais ils sont les arbres de la compromission qui cachent la forêt des élus honnêtes. Une des explications de cette rupture est aussi et sans doute à rechercher principalement dans l’absence de véritable projet politique qui réponde aux enjeux contemporains. Par la faute des citoyens qui croient encore en l’État « Providence », distributeur de prestations, les hommes et les femmes politiques sont devenus, pour beaucoup d’entre eux, des « épiciers » qui répondent aux multiples demandes, souvent contradictoires, si possible dans un temps très voisin des échéances électorales. Aristote et Platon, les pères de la politique - art de gouverner la cité en recherchant le bien commun, avec responsabilité morale, sens du dialogue et vision de long terme – ne pourraient guère trouver, dans le contexte actuel, matière à confirmer leur théorie et chercheraient les éléments constitutifs d’un retour à la sagesse. Ils en trouveraient peut-être un, inattendu pour eux : le numérique ! ",
+      "author": "En savoir plus",
+      "date": "2026-04-16 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -253,6 +253,26 @@
       "read_time": 1
     },
     {
+      "hash": "0ce6f4da64b33f845c4eb030af5b6877eeb9b06d505e104914dfb95026d16c8b",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Censure numérique et contournement satellitaire : la guerre de l’information au Kurdistan iranien",
+      "link": "https://incyber.org/article/censure-numerique-contournement-satellitaire-la-guerre-information-kurdistan-iranien/",
+      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/12/iranian-cybercriminals-cut-off-water-supply-in-two-irish-towns-1340x735.jpg",
+      "excerpt": "Le 8 janvier 2026, la mobilisation civile orchestrée par les partis kurdes iraniens s'est muée en une véritable guerre informationnelle contre Téhéran. Pour endiguer la contestation et isoler les militants de l’extérieur, le régime a activé son vaste appareil de censure, déclenchant un black-out numérique quasi total des télécommunications. Face à ce verrouillage du cyberespace national, la résistance civile a dû s’adapter. L'introduction clandestine de terminaux Starlink, visant à percer le rideau de fer numérique, a été perçue comme un danger immédiat par le régime des mollahs. Ainsi, la riposte tactique de l'armée iranienne avec le déploiement d'unités de guerre électronique et de brouilleurs mobiles, a eu raison de cette dissidence connectée.",
+      "author": "Pierre-Yves Baillet",
+      "date": "2026-04-15 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
       "hash": "f2ebdfba1868e5739997b0721012f54df91bc6f75b98a25820def10aad3ea5a6",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -261,7 +281,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/07/usa-the-white-house-plans-to-radically-overhaul-its-national-cybersecurity-strategy-1365x735.jpg",
       "excerpt": "Il entend ainsi « garantir la continuité des services municipaux vitaux ».",
       "author": "La Rédaction",
-      "date": "2026-04-08 00:00:00",
+      "date": "2026-04-15 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -381,7 +401,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-ia-human-machine-3-2160x735.jpg",
       "excerpt": "Derrière son apparence de curiosité virale, Moltbook agit surtout comme un révélateur. En quelques semaines, ce site a cristallisé les promesses, les ambiguïtés et les fragilités de l’IA agentique, au point d’attirer à la fois l’attention des médias, des chercheurs en cybersécurité et de Meta.",
       "author": "Fabrice Deblock",
-      "date": "2026-04-15 00:00:00",
+      "date": "2026-04-16 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -401,7 +421,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/05/incyber-news-cybersecurite-cybersecurity-cyberespace-2-2024-2160x735.jpg",
       "excerpt": "Surface d'attaque élargie, pression réglementaire avec NIS2, groupes APT aux aguets — la cybersécurité des entreprises de taille intermédiaire n'a jamais été aussi complexe. Benoit Grünenwald, expert chez ESET France, démonte les fausses bonnes idées et plaide pour une approche radicalement plus cohérente.",
       "author": "La Rédaction",
-      "date": "2026-04-15 00:00:00",
+      "date": "2026-04-16 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -481,26 +501,6 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-8-2160x735.jpg",
       "excerpt": "Donald Trump a sanctionné le refus du géant de l’IA de lever ses restrictions éthiques sur la surveillance de masse et les armes autonomes.",
       "author": "La Rédaction",
-      "date": "2026-04-07 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "ccfa13438a34907cc0481b63eb29882438a07c88712d315e30045da33fb3f8ca",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "PWSA : l’architecture satellitaire militaire américaine à l’heure des ruptures technologiques et doctrinales",
-      "link": "https://incyber.org/article/pwsa-larchitecture-satellitaire-militaire-americaine-a-lheure-des-ruptures-technologiques-et-doctrinales/",
-      "image_url": "https://incyber.org//wp-content/uploads/2025/06/incyber-news-cybersecurite-cybersecurity-cyberespace-1-2024-2160x735.jpg",
-      "excerpt": "Véritable rupture technologique dans la détection et le suivi de missiles, la constellation de satellites PWSA pourrait transformer la supériorité spatiale américaine. ",
-      "author": "Victor Charlie",
       "date": "2026-04-07 00:00:00",
       "tags": [
         "Cyber stabilité",
