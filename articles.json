@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-17 13:17:46",
+  "generated_at": "2026-04-18 13:00:29",
   "count": 30,
   "articles": [
     {
       "hash": "dcabe8b99a7ef9bbbb2f2031c662a3e67425b9fbc908afb71f1e347cb7333d73",
       "cat_slug": "cyber",
       "source": "IT-Connect",
-      "title": "Windows : ce chercheur publie la faille RedSun pour se venger de Microsoft",
+      "title": "Windows : un chercheur publie la faille RedSun pour se venger de Microsoft",
       "link": "https://www.it-connect.fr/exploit-redsun-faille-zero-day-windows/",
       "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Lexploit-RedSun-offre-les-droits-SYSTEM-sur-Windows-a-cause-de-Defender.jpg.webp",
       "excerpt": "RedSun, c'est le nom de la nouvelle faille zero-day impactant Microsoft Defender. Elle permet d'obtenir les privilèges SYSTEM sur une machine Windows à jour.",
@@ -22,7 +22,7 @@
       "source": "IT-Connect",
       "title": "PHP Composer : ces deux failles ouvrent la porte à l’exécution de commande",
       "link": "https://www.it-connect.fr/php-composer-ces-deux-failles-ouvrent-la-porte-a-lexecution-de-commande/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/PHP-Composer-CVE-2026-40176-et-CVE-2026-40261.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/PHP-Composer-CVE-2026-40176-et-CVE-2026-40261.jpg.webp",
       "excerpt": "PHP Composer est impacté par deux nouvelles failles pouvant permettre à un attaquant d'exécuter du code sur le serveur cible : CVE-2026-40176 et CVE-2026-40261.",
       "author": "IT-Connect",
       "date": "2026-04-17 07:14:43",
@@ -64,7 +64,7 @@
       "source": "IT-Connect",
       "title": "Piratage Booking.com : les codes PIN des réservations réinitialisés d’urgence",
       "link": "https://www.it-connect.fr/piratage-booking-com-les-codes-pin-des-reservations-reinitialises-durgence/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Booking.com-Fuite-de-donnees-Avril-2026.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Booking.com-Fuite-de-donnees-Avril-2026.jpg.webp",
       "excerpt": "Les pirates ont pu récupérer les détails des réservations des clients, forçant Booking.com à reset les codes PIN. Voici ce que l'on sait sur cet incident.",
       "author": "IT-Connect",
       "date": "2026-04-15 18:02:45",
@@ -78,7 +78,7 @@
       "source": "IT-Connect",
       "title": "Piratage EduConnect : les données personnelles d’élèves dans la nature !",
       "link": "https://www.it-connect.fr/piratage-educonnect-les-donnees-personnelles-deleves-dans-la-nature/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Piratage-EduConnect-les-donnees-personnelles-deleves-dans-la-nature-2026.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Piratage-EduConnect-les-donnees-personnelles-deleves-dans-la-nature-2026.jpg",
       "excerpt": "L'Éducation nationale a confirmé une nouvelle fuite de données impactant les élèves, suite à une intrusion sur un système en lien avec EduConnect.",
       "author": "IT-Connect",
       "date": "2026-04-15 10:09:28",
@@ -281,7 +281,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/07/usa-the-white-house-plans-to-radically-overhaul-its-national-cybersecurity-strategy-1365x735.jpg",
       "excerpt": "Il entend ainsi « garantir la continuité des services municipaux vitaux ».",
       "author": "La Rédaction",
-      "date": "2026-04-08 00:00:00",
+      "date": "2026-04-15 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -301,7 +301,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/06/istock-1384205321-2160x735.jpg",
       "excerpt": "Malgré une contraction des montants levés tous secteurs confondus, les investissements cyber progressent de 83 % sur le Vieux Continent.",
       "author": "La Rédaction",
-      "date": "2026-04-08 00:00:00",
+      "date": "2026-04-16 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -401,7 +401,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-ia-human-machine-3-2160x735.jpg",
       "excerpt": "Derrière son apparence de curiosité virale, Moltbook agit surtout comme un révélateur. En quelques semaines, ce site a cristallisé les promesses, les ambiguïtés et les fragilités de l’IA agentique, au point d’attirer à la fois l’attention des médias, des chercheurs en cybersécurité et de Meta.",
       "author": "Fabrice Deblock",
-      "date": "2026-04-07 00:00:00",
+      "date": "2026-04-16 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
