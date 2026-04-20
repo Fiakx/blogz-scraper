@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-04-19 12:59:28",
+  "generated_at": "2026-04-20 13:27:23",
   "count": 30,
   "articles": [
+    {
+      "hash": "6d60c1edc130f9323fb0bffa39cea1e0b5b716460932e6f0159d079f593b4001",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Smart TV : désactivez cette fonction qui analyse tout ce que vous regardez",
+      "link": "https://www.it-connect.fr/smart-tv-desactivez-cette-fonction-qui-analyse-tout-ce-que-vous-regardez/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Smart-TV-desactivez-cette-fonction-qui-analyse-tout-ce-que-vous-regardez.jpg.webp",
+      "excerpt": "Les Smart TV analysent vos habitudes pour cibler les publicités et vous suggérer du contenu. Le nom de cette fonction : l'ACR. Voici comment la désactiver.",
+      "author": "IT-Connect",
+      "date": "2026-04-20 09:13:05",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "12b2c5f347ebc68a00f97e692170587bb3839e104efa4b25bf99ec98f5aceb27",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "L’application de vérification d’âge de l’UE piratée en 2 minutes !",
+      "link": "https://www.it-connect.fr/application-verification-age-union-europeenne-piratee-en-2-minutes/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Europe-application-verification-age-probleme-de-securite.jpg.webp",
+      "excerpt": "Age Verification, l'application officielle de vérification d'âge de l'Union européenne, a de sérieuses lacunes en matière de sécurité : voici pourquoi.",
+      "author": "IT-Connect",
+      "date": "2026-04-20 07:56:21",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "1937f1e10a247ee3d6ae32427f86c2eb782e8a78d6f3cd45a9d46cff6e37b183",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "La plateforme de développement Vercel a été piratée : faut-il s’inquiéter ?",
+      "link": "https://www.it-connect.fr/la-plateforme-de-developpement-vercel-a-ete-piratee-faut-il-sinquieter/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Fuite-de-donnees-Vercel-Avril-2026.jpg.webp",
+      "excerpt": "La plateforme cloud Vercel vient de confirmer avoir été victime d'une cyberattaque. Quelles sont les données volées par les pirates ? Comment se protéger ?",
+      "author": "IT-Connect",
+      "date": "2026-04-20 07:23:14",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "dcabe8b99a7ef9bbbb2f2031c662a3e67425b9fbc908afb71f1e347cb7333d73",
       "cat_slug": "cyber",
@@ -171,57 +213,15 @@
       "read_time": 1
     },
     {
-      "hash": "913356fdc5c52201dbef12e076dd6e95fa4a3615c206a99d3f1c4f67b2649d17",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "GTA 6 – Rockstar Games confirme le vol de données par ShinyHunters",
-      "link": "https://www.it-connect.fr/gta-6-rockstar-games-confirme-le-vol-de-donnees-par-shinyhunters/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/GTA-6-Rockstar-Games-confirme-le-vol-de-donnees-par-ShinyHunters.jpg.webp",
-      "excerpt": "Le groupe ShinyHunters affirme détenir des données de Rockstar Games, le célèbre éditeur de GTA 6. Si la rançon n'est pas payée, les données seront publiées.",
-      "author": "IT-Connect",
-      "date": "2026-04-13 16:16:27",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "3999ba5657f21692f9854103f8bc2dc2fe37dbc0638ab24bf2f1f6aa88b88cdf",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Piratage Basic-Fit : les données bancaires d’un million de membres volées !",
-      "link": "https://www.it-connect.fr/piratage-basic-fit-les-donnees-bancaires-dun-million-de-membres-volees/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Basic-Fit-Fuite-de-donnees-bancaires-2026.jpg.webp",
-      "excerpt": "Le piratage de Basic-Fit affecte près d'un million de clients, dont des Français ! Cette fuite de données contient des données personnelles et bancaires !",
-      "author": "IT-Connect",
-      "date": "2026-04-13 14:29:15",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "fd75e0705bc9ca68a6f132b0fd4d7aa0ecb97924cb49cb38438e9a69bce548d5",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Les outils CPU-Z et HWMonitor piégés par un malware !",
-      "link": "https://www.it-connect.fr/les-outils-cpu-z-et-hwmonitor-pieges-par-un-malware/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Piratage-CPUID-Versions-infectees-CPU-Z-et-HWMonitor.jpg.webp",
-      "excerpt": "Des pirates sont parvenus à avoir accès à l'API du projet CPUID, ce qui leur a permis de distribuer des versions infectées de CPU-Z et HWMonitor.",
-      "author": "IT-Connect",
-      "date": "2026-04-13 07:32:39",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "74059206d26d5f6a242fcda66805c111406749c297fc5b500bc6ce4e3f368cb0",
+      "hash": "b664f9ea2acc3b4a10f693352ec99b915e8feb3d34fe85b1cf16f119817a04f2",
       "cat_slug": "cyber",
       "source": "INCYBER",
-      "title": "Le numérique pour réconcilier le citoyen avec la politique",
-      "link": "https://incyber.org/article/numerique-pour-reconcilier-citoyen-avec-politique/",
-      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/05/lindustrie-numerique-europeenne-soppose-au-data-act-2160x735.jpg",
-      "excerpt": "Les récentes élections municipales ont confirmé une forme de rejet de la politique par les citoyens, au moment où les enjeux locaux auraient dû les mobiliser. L’abstention n’est pas conjoncturelle, car elle s’observe hélas ! de scrutin en scrutin. Les élus locaux bénéficient encore d’une certaine confiance, mais ils sont emportés dans un mouvement de déconsidération de la classe politique. Les causes sont multiples, à commencer par les scandales qui ont été révélés et trouvent leur point d’orgue devant les tribunaux. Certes les cas sont minoritaires, mais ils sont les arbres de la compromission qui cachent la forêt des élus honnêtes. Une des explications de cette rupture est aussi et sans doute à rechercher principalement dans l’absence de véritable projet politique qui réponde aux enjeux contemporains. Par la faute des citoyens qui croient encore en l’État « Providence », distributeur de prestations, les hommes et les femmes politiques sont devenus, pour beaucoup d’entre eux, des « épiciers » qui répondent aux multiples demandes, souvent contradictoires, si possible dans un temps très voisin des échéances électorales. Aristote et Platon, les pères de la politique - art de gouverner la cité en recherchant le bien commun, avec responsabilité morale, sens du dialogue et vision de long terme – ne pourraient guère trouver, dans le contexte actuel, matière à confirmer leur théorie et chercheraient les éléments constitutifs d’un retour à la sagesse. Ils en trouveraient peut-être un, inattendu pour eux : le numérique ! ",
-      "author": "En savoir plus",
-      "date": "2026-04-16 00:00:00",
+      "title": "Ransomware : une économie qui change d’échelle",
+      "link": "https://incyber.org/article/ransomware-economie-change-echelle/",
+      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/09/europol-still-deems-ransomware-number-one-threat-2160x735.jpg",
+      "excerpt": "Ransomware : une économie qui change d’échelle Le ransomware s’inscrit désormais dans une économie criminelle structurée, alimentée par la spécialisation des acteurs, l’exploitation de la donnée, l’élargissement de la surface d’attaque et l’accélération permise par l’IA. La réponse ne peut plus se limiter à la protection des systèmes. Elle suppose coopération, renseignement, signalement et montée en capacité collective. En quelques années, les acteurs du ransomware ont fait basculer cette activité, au départ relativement artisanale, dans une logique de chaîne de valeur. Le modèle s’est progressivement mué en une industrie où les rôles se répartissent entre accès initial, compromission, négociation, exfiltration et monétisation. Un marché des compétences s’est ainsi structuré, avec ses prestataires, ses affiliés et ses relais spécialisés. « Nous faisons face à un éclatement des groupes cybercriminels avec des spécialisations qui rendent l’accès aux outils criminels beaucoup plus simple. La barrière d’entrée technique diminue fortement et permet à des acteurs moins expérimentés de participer à des opérations pourtant très dommageables », déclare Pierre Meganck, Consultant cybersécurité chez Linkt, lors d’une table ronde organisée au Forum INCYBER 2026 à Lille. Pour les organisations visées, les attaques ne se limitent plus à quelques postes chiffrés. Elles visent désormais l’ensemble du système d’information, combinent sabotage opérationnel, exfiltration et extorsion et exigent des dispositifs de protection plus lourds, plus coûteux et plus difficiles à déployer, notamment pour les PME, ETI et collectivités. « Cette structuration, cette industrialisation de l’attaque, nous la ressentons depuis vingt ans. Ce qui change aujourd’hui, c’est l’échelle. Nous ne sommes plus face à une machine isolée chiffrée sur un réseau, mais face à des attaques globales avec extorsion, exfiltration et pressions multiples », note Pascal Le Digol, Country Manager France de WatchGuard Technologies. La donnée, cible première des cybercriminels Le basculement le plus net concerne la donnée. Elle devient la cible principale des attaquants. Elle permet d’extorquer, mais alimente aussi la revente, le ciblage d’opérations ultérieures et parfois la préparation de passages à l’acte physique. « Nous devrions moins parler de cybercriminalité que de ‘cyber’ au service de la criminalité. Ce qui se joue désormais, c’est l’exploitation de la donnée en elle-même », constate Christophe Cencig, Chef adjoint du pôle des enquêtes cyber à l’Ofac, Direction nationale de la police judiciaire. Hervé Petry, Commandant de l’unité nationale cyber de la Gendarmerie nationale, renchérit : « Ce qu’il faut avoir en tête aujourd’hui, c’est une triple hybridation entre groupes cybercriminels, criminalité organisée classique et entités étatiques hostiles. Dans ce contexte, la donnée volée ne constitue pas seulement un actif monétisable, elle devient aussi un levier pour préparer d’autres formes d’attaques ». À cette triple hybridation s’ajoute la montée en puissance régulière de l’OSINT (Open Source Intelligence) et de l’ingénierie sociale. Les données issues des réseaux sociaux, des fuites précédentes ou de fichiers publics en libre accès servent à qualifier les cibles, à affiner les scénarios de fraude et à réduire le temps de préparation. Les attaquants ne cherchent plus seulement une faille logicielle. Ils exploitent aussi les habitudes, les expositions personnelles et les routines professionnelles. « Avec les outils dont ils disposent, ils arrivent vraiment à connaître tout de nous de manière très précise. Ils agrègent la donnée dans des panels, dans des lookups, et cela crée une asymétrie préoccupante. Plus nous laissons de traces, plus ils disposent de matière pour cibler, affiner et passer à l’action », commente Hervé Petry.  Une surface d’attaque qui dépasse les frontières de l’entreprise Autre bascule d’importance à prendre en considération : la surface d’attaque dépasse aujourd’hui largement les murs de l’entreprise. Au lieu de viser frontalement la cible principale, les attaquants cherchent le point d’accès le plus facile. Prestataires web, cabinets comptables, sous-traitants techniques ou éditeurs intermédiaires deviennent ainsi des cibles de premier choix. « Les vecteurs d’attaque prioritaires vont être les petites structures avec lesquelles les grandes entreprises travaillent. Cela peut être le prestataire qui a fait le site web ou un partenaire moins protégé. Ils deviennent une porte d’entrée plus simple vers une cible de plus grande taille », précise Pierre Meganck. L’intelligence artificielle représente un autre accélérateur majeur. En améliorant les courriels de phishing, en automatisant la recherche de cibles, en aidant au traitement de grandes masses d’informations et en réduisant le besoin de main-d’œuvre, l’IA compresse le temps nécessaire pour passer de l’observation à l’action et provoque un véritable effet d’échelle. « Le cybercrime a toujours été une affaire d’échelle, mais l’IA fait passer ce modèle à l’étape supérieure. Ce qui exigeait auparavant du temps et des effectifs peut désormais être automatisé. Un acteur isolé peut donc faire fonctionner à lui seul une activité qui nécessitait hier plusieurs personnes », avance Michaël de Laet, Team lead au European Cybercrime Center d’Europol. Réduire l’asymétrie par la coopération et le signalement Cette accélération nourrit un risque plus large, celui d’un décrochage entre capacités offensives et défensives. Grâce à des ressources financières conséquentes et à une capacité à recruter rapidement, les groupes criminels s’affranchissent de nombreuses contraintes et bénéficient d’outils toujours plus puissants. Même si ces derniers ne sont pas encore pleinement exploités, ils contribuent à creuser l’écart avec des organisations qui restent très inégalement préparées. « Les attaquants disposent déjà d’une vraie réserve technologique. Ils ont accès à des capacités qu’ils n’ont même pas encore besoin d’exploiter totalement parce que le niveau de défense demeure encore insuffisant dans beaucoup de structures », analyse Pascal Le Digol. Dans ce contexte, la réponse avancée par les intervenants tient en deux mots : coopération et signalement. Coopération entre services, entre pays, ainsi qu’entre acteurs publics et privés. Signalement aussi, parce qu’une attaque non déclarée reste une attaque difficilement exploitable sur le plan judiciaire et analytique. « Si les victimes ne remontent pas les faits, il devient impossible de rapprocher les dossiers et de construire une réponse solide », note Christophe Cencig. La remontée d’incidents, la plainte et le partage d’indicateurs conditionnent la qualité de la détection comme celle des opérations de démantèlement. « Nous renforçons la coopération internationale et la collaboration avec le privé afin de rendre ces échanges plus opérationnels. L’objectif consiste à transformer les informations disponibles en actions concrètes capables de désorganiser l’infrastructure, les services et les modèles économiques des groupes criminels », conclut Michaël de Laet.",
+      "author": "Fabrice Deblock",
+      "date": "2026-04-18 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -253,6 +253,26 @@
       "read_time": 1
     },
     {
+      "hash": "d2a7ef795eed6a4676bac4810d61af0720434b3016ed1a4457025d0bb19ffdc0",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Règlement Omnibus AI Act : état du texte et principales évolutions envisagées",
+      "link": "https://incyber.org/article/reglement-omnibus-ai-act-etat-du-texte-et-principales-evolutions-envisagees/",
+      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/12/forum-incyber-montreal-2023-penser-en-grand-sommes-nous-en-route-vers-un-cadre-reglementaire-mondial-sur-la-protection-des-donnees-1313x735.jpg",
+      "excerpt": "L'initiative s'insère dans la stratégie européenne plus large de simplification des règles applicables aux entreprises. Cette politique est conçue comme un instrument de compétitivité, destiné à réduire les coûts administratifs et les obligations déclaratives, avec des objectifs affichés de réduction des charges administratives d'au moins 25 % pour l'ensemble des entreprises et de 35 % pour les PME à l'horizon 2030. Dans ce cadre, l'Omnibus VII regroupe les propositions de simplification du paquet numérique, dont le règlement sur l'intelligence artificielle.",
+      "author": "Marc Mossé & Eden Gall",
+      "date": "2026-04-16 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
       "hash": "8f8f9d5bdef6632baa5ed2c7f5ad628242a81e439dd07385c099b79161e1c77f",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -261,6 +281,26 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-cyberpunk-city-ville-1-2024-1920x735.jpg",
       "excerpt": "Dans cet entretien, Vincent Bontems revient sur le rôle des imaginaires — et notamment de la science-fiction — dans la manière dont sont pensés les enjeux cyber, entre structuration des perceptions, exploration des angles morts et outils d’anticipation. Directeur de recherche au CEA et professeur à l’Université Paris-Saclay, Vincent Bontems travaille sur les interactions entre science, technologie et imaginaires. Il participe au projet SPREADS, soutenu par l’Agence de l’innovation de défense, et a récemment publié \"Fictions scientifiques : et si Borges avait connu l’IA ?\".",
       "author": "Jean Langlois-Berthelot",
+      "date": "2026-04-16 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
+      "hash": "74059206d26d5f6a242fcda66805c111406749c297fc5b500bc6ce4e3f368cb0",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "Le numérique pour réconcilier le citoyen avec la politique",
+      "link": "https://incyber.org/article/numerique-pour-reconcilier-citoyen-avec-politique/",
+      "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/05/lindustrie-numerique-europeenne-soppose-au-data-act-2160x735.jpg",
+      "excerpt": "Les récentes élections municipales ont confirmé une forme de rejet de la politique par les citoyens, au moment où les enjeux locaux auraient dû les mobiliser. L’abstention n’est pas conjoncturelle, car elle s’observe hélas ! de scrutin en scrutin. Les élus locaux bénéficient encore d’une certaine confiance, mais ils sont emportés dans un mouvement de déconsidération de la classe politique. Les causes sont multiples, à commencer par les scandales qui ont été révélés et trouvent leur point d’orgue devant les tribunaux. Certes les cas sont minoritaires, mais ils sont les arbres de la compromission qui cachent la forêt des élus honnêtes. Une des explications de cette rupture est aussi et sans doute à rechercher principalement dans l’absence de véritable projet politique qui réponde aux enjeux contemporains. Par la faute des citoyens qui croient encore en l’État « Providence », distributeur de prestations, les hommes et les femmes politiques sont devenus, pour beaucoup d’entre eux, des « épiciers » qui répondent aux multiples demandes, souvent contradictoires, si possible dans un temps très voisin des échéances électorales. Aristote et Platon, les pères de la politique - art de gouverner la cité en recherchant le bien commun, avec responsabilité morale, sens du dialogue et vision de long terme – ne pourraient guère trouver, dans le contexte actuel, matière à confirmer leur théorie et chercheraient les éléments constitutifs d’un retour à la sagesse. Ils en trouveraient peut-être un, inattendu pour eux : le numérique ! ",
+      "author": "En savoir plus",
       "date": "2026-04-16 00:00:00",
       "tags": [
         "Cyber stabilité",
@@ -321,7 +361,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/06/istock-1384205321-2160x735.jpg",
       "excerpt": "Malgré une contraction des montants levés tous secteurs confondus, les investissements cyber progressent de 83 % sur le Vieux Continent.",
       "author": "La Rédaction",
-      "date": "2026-04-16 00:00:00",
+      "date": "2026-04-18 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -401,7 +441,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-war-weapon-cybersecurite-cybersecurity-2000x735.jpg",
       "excerpt": "Dans l'opération Epic Fury, le Maven Smart System de Palantir a permis aux États-Unis de frapper 1 000 cibles dans les 24 premières heures de la guerre. À ce rythme, le temps disponible par décision de ciblage ne dépasserait pas quelques dizaines de secondes.",
       "author": "Adèle Forveille",
-      "date": "2026-04-16 00:00:00",
+      "date": "2026-04-18 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -460,46 +500,6 @@
       "link": "https://incyber.org/article/canada-veut-faciliter-acces-forces-ordre-donnees-numeriques/",
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/10/canada-indian-ddos-attack-against-military-and-parliament-websites-2160x735.jpg",
       "excerpt": "Le gouvernement fédéral a déposé un projet de loi en ce sens à la Chambre des communes.",
-      "author": "La Rédaction",
-      "date": "2026-04-07 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "9ef6a5f47d7e169f8a12e2d9f8972e43b6934dd6337231fcdfe4e0ff9de6a96c",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Palantir, ange ou démon ?",
-      "link": "https://incyber.org/article/palantir-ange-ou-demon/",
-      "image_url": "https://incyber.org//wp-content/uploads/2026/03/whatsapp-image-2026-03-09-at-19-44-38-1-1536x735.jpeg",
-      "excerpt": "« Should I stay or should I go », chantait The Clash en 1982 : « If I stay, it will be trouble; if I go, it will be double ». Un dilemme qui résume bien la position des États et entreprises face à Palantir. La société offre des outils d’aide à la décision extraordinairement puissants, dont il semble difficile de se passer. Une puissance qui permet aussi les dérives les plus inquiétantes. Alors, Palantir, outil indispensable ou redoutable cheval de Troie ? INCYBER a enquêté.",
-      "author": "Stanislas Tarnowski",
-      "date": "2026-04-07 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "776b1fe83a64139b4ee02ef996b38e45d14a77f0e15a68af6bd54a1d90738887",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "États-Unis : les démocrates critiquent un projet de loi sur la sécurité des mineurs en ligne",
-      "link": "https://incyber.org/article/etats-unis-democrates-critiquent-projet-loi-sur-securite-des-mineurs-en-ligne/",
-      "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-child-protection-2-2024-1920x735.jpg",
-      "excerpt": "Validé en commission par les représentants républicains, le texte proposerait, selon leurs opposants, un cadre légal moins sûr que celui actuellement en vigueur.",
       "author": "La Rédaction",
       "date": "2026-04-07 00:00:00",
       "tags": [
