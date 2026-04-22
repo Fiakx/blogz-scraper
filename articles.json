@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-04-21 13:24:41",
-  "count": 29,
+  "generated_at": "2026-04-22 13:25:16",
+  "count": 30,
   "articles": [
+    {
+      "hash": "9bcbcaaed31e61aaaa64aebfebfe1dfc54319838e696fd9e5934904457f2997b",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Claude Mythos a découvert 271 failles de sécurité dans Firefox 150",
+      "link": "https://www.it-connect.fr/claude-mythos-a-decouvert-271-failles-de-securite-dans-firefox-150/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Claude-Mythos-a-decouvert-271-failles-de-securite-dans-Firefox-150.jpg.webp",
+      "excerpt": "L'IA Claude Mythos (Preview) est parvenue à identifier 271 vulnérabilités dans Firefox 150, la toute dernière version du navigateur de Mozilla.",
+      "author": "IT-Connect",
+      "date": "2026-04-22 08:05:04",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "523c11919c10e0fed98311907c8d5762dc067f32b21370f08aeb6e801544d1ae",
       "cat_slug": "cyber",
@@ -143,6 +157,20 @@
       "read_time": 1
     },
     {
+      "hash": "4ff0d0ca9af558fda650794a2b5d0a0c9c2d7f5c318a6916c384513362d60736",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Piratage Booking.com : les codes PIN des réservations réinitialisés d’urgence",
+      "link": "https://www.it-connect.fr/piratage-booking-com-les-codes-pin-des-reservations-reinitialises-durgence/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Booking.com-Fuite-de-donnees-Avril-2026.jpg.webp",
+      "excerpt": "Les pirates ont pu récupérer les détails des réservations des clients, forçant Booking.com à reset les codes PIN. Voici ce que l'on sait sur cet incident.",
+      "author": "IT-Connect",
+      "date": "2026-04-15 18:02:45",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
       "hash": "36d7b14343e6e61076e5af15cb277f558c50129158675e93486d39e57df5b3c2",
       "cat_slug": "cyber",
       "source": "IT-Connect",
@@ -185,20 +213,6 @@
       "read_time": 1
     },
     {
-      "hash": "6f8976e7579a0b43c7ae0658ed2005d6f68c286098f2ca1b4332e84b8a1c36fc",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Sécurité de l’État : l’ANSSI dévoile sa feuille de route pour 2026-2027",
-      "link": "https://www.it-connect.fr/securite-de-etat-lanssi-devoile-sa-feuille-de-route-pour-2026-2027/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Securite-de-lEtat-lANSSI-devoile-sa-feuille-de-route-pour-2026-2027.jpg.webp",
-      "excerpt": "L'ANSSI a publié sa feuille de route des efforts prioritaires en matière de sécurité numérique que l'État doit accomplir sur la période 2026-2027.",
-      "author": "IT-Connect",
-      "date": "2026-04-14 14:00:44",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
       "hash": "d5ba31551799d4359efbd09a9de4296775daba26534e7ce6faba934c5f7def9e",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -227,7 +241,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/09/cybercriminal-leaks-data-from-3200-airbus-suppliers-2121x735.jpg",
       "excerpt": "Le groupe Airbus poursuit sa stratégie d’expansion dans la cybersécurité et annonce l’acquisition de la société française Quarkslab. Une opération qui renforce ses ambitions en matière de souveraineté numérique en Europe.",
       "author": "La Rédaction",
-      "date": "2026-04-21 00:00:00",
+      "date": "2026-04-22 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -327,7 +341,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-cyberpunk-city-ville-1-2024-1920x735.jpg",
       "excerpt": "Dans cet entretien, Vincent Bontems revient sur le rôle des imaginaires — et notamment de la science-fiction — dans la manière dont sont pensés les enjeux cyber, entre structuration des perceptions, exploration des angles morts et outils d’anticipation. Directeur de recherche au CEA et professeur à l’Université Paris-Saclay, Vincent Bontems travaille sur les interactions entre science, technologie et imaginaires. Il participe au projet SPREADS, soutenu par l’Agence de l’innovation de défense, et a récemment publié \"Fictions scientifiques : et si Borges avait connu l’IA ?\".",
       "author": "Jean Langlois-Berthelot",
-      "date": "2026-04-16 00:00:00",
+      "date": "2026-04-22 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -347,7 +361,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/05/lindustrie-numerique-europeenne-soppose-au-data-act-2160x735.jpg",
       "excerpt": "Les récentes élections municipales ont confirmé une forme de rejet de la politique par les citoyens, au moment où les enjeux locaux auraient dû les mobiliser. L’abstention n’est pas conjoncturelle, car elle s’observe hélas ! de scrutin en scrutin. Les élus locaux bénéficient encore d’une certaine confiance, mais ils sont emportés dans un mouvement de déconsidération de la classe politique. Les causes sont multiples, à commencer par les scandales qui ont été révélés et trouvent leur point d’orgue devant les tribunaux. Certes les cas sont minoritaires, mais ils sont les arbres de la compromission qui cachent la forêt des élus honnêtes. Une des explications de cette rupture est aussi et sans doute à rechercher principalement dans l’absence de véritable projet politique qui réponde aux enjeux contemporains. Par la faute des citoyens qui croient encore en l’État « Providence », distributeur de prestations, les hommes et les femmes politiques sont devenus, pour beaucoup d’entre eux, des « épiciers » qui répondent aux multiples demandes, souvent contradictoires, si possible dans un temps très voisin des échéances électorales. Aristote et Platon, les pères de la politique - art de gouverner la cité en recherchant le bien commun, avec responsabilité morale, sens du dialogue et vision de long terme – ne pourraient guère trouver, dans le contexte actuel, matière à confirmer leur théorie et chercheraient les éléments constitutifs d’un retour à la sagesse. Ils en trouveraient peut-être un, inattendu pour eux : le numérique ! ",
       "author": "En savoir plus",
-      "date": "2026-04-16 00:00:00",
+      "date": "2026-04-21 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -387,7 +401,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/07/usa-the-white-house-plans-to-radically-overhaul-its-national-cybersecurity-strategy-1365x735.jpg",
       "excerpt": "Il entend ainsi « garantir la continuité des services municipaux vitaux ».",
       "author": "La Rédaction",
-      "date": "2026-04-21 00:00:00",
+      "date": "2026-04-22 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -427,7 +441,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-chatbot-2024-1920x735.jpg",
       "excerpt": "Les compagnons IA attirent déjà des millions d’utilisateurs dans le monde. Mais derrière une promesse relationnelle forte se dessine une autre réalité : celle d’une collecte massive de données personnelles dont les finalités, la durée de conservation et les conditions d’exploitation restent souvent mal comprises par les utilisateurs.",
       "author": "Fabrice Deblock",
-      "date": "2026-04-21 00:00:00",
+      "date": "2026-04-22 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -447,7 +461,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-8-2160x735.jpg",
       "excerpt": "À l'heure où les cyberattaques se multiplient et où les fuites de données massives défraient la chronique quotidiennement, la protection et la gouvernance des données s'imposent comme des enjeux stratégiques majeurs pour les entreprises françaises. En 2024, la Commission Nationale de l'Informatique et des Libertés (CNIL) a enregistré un nombre record de violations de données (notamment avec l’organisation des Jeux Olympiques), soulignant l'urgence d'une réponse structurelle.",
       "author": "Jean Michel GALLEBY",
-      "date": "2026-04-21 00:00:00",
+      "date": "2026-04-22 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -467,7 +481,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-cybersecurite-cybersecurity-pays-countries-attack-2024-2160x735.jpg",
       "excerpt": "Le Paris Defence and Strategy Forum 2026 n’était pas un événement périphérique du calendrier stratégique. Sa troisième édition, organisée du 24 au 26 mars à l’École militaire par l’Académie de défense, s’inscrivait dans l’ambition assumée de faire rayonner la pensée stratégique française et européenne, à un moment où les dépendances économiques et numériques sont de plus en plus instrumentalisées. Le forum a réuni des responsables militaires, des chercheurs, des industriels et des décideurs publics autour d’un fil rouge consacré aux souverainetés, aux alliances et aux partenariats. Pour qui observait le volet cyber, une impression dominait : l’Europe ne cherche plus seulement des outils, elle cherche une doctrine. ",
       "author": "Jean Langlois-Berthelot",
-      "date": "2026-04-07 00:00:00",
+      "date": "2026-04-21 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -487,7 +501,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-war-weapon-cybersecurite-cybersecurity-2000x735.jpg",
       "excerpt": "Dans l'opération Epic Fury, le Maven Smart System de Palantir a permis aux États-Unis de frapper 1 000 cibles dans les 24 premières heures de la guerre. À ce rythme, le temps disponible par décision de ciblage ne dépasserait pas quelques dizaines de secondes.",
       "author": "Adèle Forveille",
-      "date": "2026-04-18 00:00:00",
+      "date": "2026-04-22 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
