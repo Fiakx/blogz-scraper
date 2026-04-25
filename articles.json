@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-04-24 13:21:57",
+  "generated_at": "2026-04-25 13:02:29",
   "count": 30,
   "articles": [
+    {
+      "hash": "671cc4c1c355dc0f0874c5513fe01ffebee366c5c80edaeee135ef3d3654abc9",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Windows : trois exploits Microsoft Defender désormais exploités par les pirates",
+      "link": "https://www.it-connect.fr/windows-trois-exploits-microsoft-defender-desormais-exploites-par-les-pirates/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Windows-trois-exploits-Microsoft-Defender-desormais-exploites-par-les-pirates.jpg.webp",
+      "excerpt": "Trois failles de sécurité zero-day présentes dans Microsoft Defender sont désormais exploitées par les cybercriminels : BlueHammer, RedSun et UnDefend.",
+      "author": "IT-Connect",
+      "date": "2026-04-24 13:48:31",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "20f8425d26b930dee52ab362d499a5455ef4ac16a32908dde376e05a6a8bff85",
       "cat_slug": "cyber",
@@ -22,7 +36,7 @@
       "source": "IT-Connect",
       "title": "Piratage Bitwarden CLI : une version malveillante diffusée via NPM",
       "link": "https://www.it-connect.fr/piratage-bitwarden-cli-une-version-malveillante-diffusee-via-npm/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Piratage-Bitwarden-CLI-une-version-malveillante-diffusee-via-NPM.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Piratage-Bitwarden-CLI-une-version-malveillante-diffusee-via-NPM.jpg.webp",
       "excerpt": "Des pirates sont parvenus à publier une version infectée de Bitwarden CLI destinée à voler des informations sensibles sur les machines des victimes.",
       "author": "IT-Connect",
       "date": "2026-04-23 18:10:32",
@@ -36,7 +50,7 @@
       "source": "IT-Connect",
       "title": "Microsoft a publié un patch pour une faille critique dans ASP.NET : CVE-2026-40372",
       "link": "https://www.it-connect.fr/microsoft-a-publie-un-patch-pour-une-faille-critique-dans-asp-net-cve-2026-40372/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Microsoft-patch-faille-critique-ASP-NET-CVE-2026-40372.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Microsoft-patch-faille-critique-ASP-NET-CVE-2026-40372.jpg.webp",
       "excerpt": "Microsoft a publié la version 10.0.7 d'ASP .NET sous la forme d'une mise à jour hors bande afin de patcher une faille de sécurité critique : CVE-2026-40372.",
       "author": "IT-Connect",
       "date": "2026-04-23 15:46:57",
@@ -134,7 +148,7 @@
       "source": "IT-Connect",
       "title": "L’application de vérification d’âge de l’UE piratée en 2 minutes !",
       "link": "https://www.it-connect.fr/application-verification-age-union-europeenne-piratee-en-2-minutes/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Europe-application-verification-age-probleme-de-securite.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Europe-application-verification-age-probleme-de-securite.jpg.webp",
       "excerpt": "Age Verification, l'application officielle de vérification d'âge de l'Union européenne, a de sérieuses lacunes en matière de sécurité : voici pourquoi.",
       "author": "IT-Connect",
       "date": "2026-04-20 07:56:21",
@@ -199,20 +213,6 @@
       "read_time": 1
     },
     {
-      "hash": "d0d095ba42dcd958cb63460deb46bc8e6c8423c1cfb180ad9b2896b35f0bf217",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Vaultwarden 1.35.5 corrige trois vulnérabilités dans le Password Manager",
-      "link": "https://www.it-connect.fr/vaultwarden-1-35-5-corrige-trois-vulnerabilites-dans-le-password-manager/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Vaultwarden-1.35.5-Mise-a-jour-de-securite.jpg.webp",
-      "excerpt": "Vaultwarden 1.35.5 a été publié le 12 avril 2026 : je vous recommande vivement d'appliquer cette mise à jour : elle corrige trois failles de sécurité.",
-      "author": "IT-Connect",
-      "date": "2026-04-16 14:35:46",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
       "hash": "669fb561f4a726e43a1089df53d6aca129c7093446d74c8734172bc0dd77e444",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -241,7 +241,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/09/cybercriminal-leaks-data-from-3200-airbus-suppliers-2121x735.jpg",
       "excerpt": "Le groupe Airbus poursuit sa stratégie d’expansion dans la cybersécurité et annonce l’acquisition de la société française Quarkslab. Une opération qui renforce ses ambitions en matière de souveraineté numérique en Europe.",
       "author": "La Rédaction",
-      "date": "2026-04-22 00:00:00",
+      "date": "2026-04-24 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
