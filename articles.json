@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-04-26 13:04:42",
+  "generated_at": "2026-04-27 13:50:28",
   "count": 30,
   "articles": [
+    {
+      "hash": "6ac25d279e0ed17988c5da0aadc4ab11fd67fd327e570160f5c482513d76cc15",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Pack2TheRoot : cette vulnérabilité vieille de 12 ans menace Linux",
+      "link": "https://www.it-connect.fr/pack2theroot-cette-vulnerabilite-vieille-de-12-ans-menace-linux/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Linux-Faille-Pack2TheRoot.jpg.webp",
+      "excerpt": "Pack2TheRoot (CVE-2026-41651), c'est le nom d'une faille de sécurité importante découverte dans un composant omniprésent sur Linux : PackageKit.",
+      "author": "IT-Connect",
+      "date": "2026-04-27 09:21:03",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "671cc4c1c355dc0f0874c5513fe01ffebee366c5c80edaeee135ef3d3654abc9",
       "cat_slug": "cyber",
@@ -194,20 +208,6 @@
       "excerpt": "PHP Composer est impacté par deux nouvelles failles pouvant permettre à un attaquant d'exécuter du code sur le serveur cible : CVE-2026-40176 et CVE-2026-40261.",
       "author": "IT-Connect",
       "date": "2026-04-17 07:14:43",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "ed858bc3eee1a399983f5e9dc9b5d274885614b53e8f82b55f6d3eb6479b5a54",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Cisco Webex – CVE-2026-20184 : cette faille critique nécessite une action de l’admin",
-      "link": "https://www.it-connect.fr/cisco-webex-cve-2026-20184-cette-faille-critique-necessite-une-action-de-ladmin/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Cisco-Webex-CVE-2026-20184-Avril-2026.jpg.webp",
-      "excerpt": "Cisco a corrigé une faille critique dans les services Cisco Webex : CVE-2026-20184. Si vous utilisez cette solution, une intervention manuelle est requise.",
-      "author": "IT-Connect",
-      "date": "2026-04-16 16:00:00",
       "tags": [],
       "content": "",
       "read_time": 1
@@ -461,7 +461,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/07/usa-the-white-house-plans-to-radically-overhaul-its-national-cybersecurity-strategy-1365x735.jpg",
       "excerpt": "Il entend ainsi « garantir la continuité des services municipaux vitaux ».",
       "author": "La Rédaction",
-      "date": "2026-04-24 00:00:00",
+      "date": "2026-04-27 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -501,7 +501,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-chatbot-2024-1920x735.jpg",
       "excerpt": "Les compagnons IA attirent déjà des millions d’utilisateurs dans le monde. Mais derrière une promesse relationnelle forte se dessine une autre réalité : celle d’une collecte massive de données personnelles dont les finalités, la durée de conservation et les conditions d’exploitation restent souvent mal comprises par les utilisateurs.",
       "author": "Fabrice Deblock",
-      "date": "2026-04-24 00:00:00",
+      "date": "2026-04-27 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
