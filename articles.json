@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-04-27 13:50:28",
+  "generated_at": "2026-04-29 13:53:31",
   "count": 30,
   "articles": [
+    {
+      "hash": "de28f0baff0715c539da2553e5871b530e67e419d3698a87fa5f84d17a47d25a",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Vols d’identifiants sur Windows : Microsoft révèle l’exploitation de la CVE-2026-32202",
+      "link": "https://www.it-connect.fr/vols-didentifiants-sur-windows-microsoft-revele-lexploitation-de-la-cve-2026-32202/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Windows-exploitation-CVE-2026-32202.jpg.webp",
+      "excerpt": "Microsoft a révisé son bulletin de sécurité associé à la CVE-2026-32202 pour informer de son exploitation. Quels sont les risques ? Voici l'essentiel à savoir.",
+      "author": "IT-Connect",
+      "date": "2026-04-29 10:36:09",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "358659b67aaf476ed18c25d756538202cb9f486fbeac26cf3a2b3782e7327cc6",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Cette faille GitHub est exploitable par un simple Git Push (CVE-2026-3854)",
+      "link": "https://www.it-connect.fr/cette-faille-github-est-exploitable-par-un-simple-git-push-cve-2026-3854/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/CVE-2026-3854-une-faille-GitHub-exploitable-par-un-simple-Git-Push.jpg.webp",
+      "excerpt": "Une simple commande git push pour compromettre un serveur ? C'est possible grâce à la faille CVE-2026-3854 qui affecte GitHub.com et GitHub Enterprise Server.",
+      "author": "IT-Connect",
+      "date": "2026-04-29 06:55:51",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
+    {
+      "hash": "421ce0e03e3a005520d450c8f0f01ab68a85928a7d7e359107ffaf40ae03ad21",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Cyberattaque Udemy : le gang ShinyHunters publie les données de 1,4 million d’utilisateurs",
+      "link": "https://www.it-connect.fr/cyberattaque-udemy-le-gang-shinyhunters-publie-les-donnees-1-4-million-utilisateurs/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Fuite-de-donnees-Udemy-avril-2026.jpg.webp",
+      "excerpt": "Les pirates ont publié une base de données contenant plus de 1,4 million d'enregistrements correspondants à des utilisateurs de la plateforme Udemy.",
+      "author": "IT-Connect",
+      "date": "2026-04-28 07:04:30",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "6ac25d279e0ed17988c5da0aadc4ab11fd67fd327e570160f5c482513d76cc15",
       "cat_slug": "cyber",
@@ -22,7 +64,7 @@
       "source": "IT-Connect",
       "title": "Windows : trois exploits Microsoft Defender désormais exploités par les pirates",
       "link": "https://www.it-connect.fr/windows-trois-exploits-microsoft-defender-desormais-exploites-par-les-pirates/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Windows-trois-exploits-Microsoft-Defender-desormais-exploites-par-les-pirates.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Windows-trois-exploits-Microsoft-Defender-desormais-exploites-par-les-pirates.jpg",
       "excerpt": "Trois failles de sécurité zero-day présentes dans Microsoft Defender sont désormais exploitées par les cybercriminels : BlueHammer, RedSun et UnDefend.",
       "author": "IT-Connect",
       "date": "2026-04-24 13:48:31",
@@ -171,48 +213,6 @@
       "read_time": 1
     },
     {
-      "hash": "1937f1e10a247ee3d6ae32427f86c2eb782e8a78d6f3cd45a9d46cff6e37b183",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "La plateforme de développement Vercel a été piratée : faut-il s’inquiéter ?",
-      "link": "https://www.it-connect.fr/la-plateforme-de-developpement-vercel-a-ete-piratee-faut-il-sinquieter/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Fuite-de-donnees-Vercel-Avril-2026.jpg.webp",
-      "excerpt": "La plateforme cloud Vercel vient de confirmer avoir été victime d'une cyberattaque. Quelles sont les données volées par les pirates ? Comment se protéger ?",
-      "author": "IT-Connect",
-      "date": "2026-04-20 07:23:14",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "dcabe8b99a7ef9bbbb2f2031c662a3e67425b9fbc908afb71f1e347cb7333d73",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Windows : un chercheur publie la faille RedSun pour se venger de Microsoft",
-      "link": "https://www.it-connect.fr/exploit-redsun-faille-zero-day-windows/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Lexploit-RedSun-offre-les-droits-SYSTEM-sur-Windows-a-cause-de-Defender.jpg.webp",
-      "excerpt": "RedSun, c'est le nom de la nouvelle faille zero-day impactant Microsoft Defender. Elle permet d'obtenir les privilèges SYSTEM sur une machine Windows à jour.",
-      "author": "IT-Connect",
-      "date": "2026-04-17 09:09:32",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
-      "hash": "1fd45d2098809a5f5e7d83525587e57c4f3ab621b1110cd33af775bcfc7b9e6a",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "PHP Composer : ces deux failles ouvrent la porte à l’exécution de commande",
-      "link": "https://www.it-connect.fr/php-composer-ces-deux-failles-ouvrent-la-porte-a-lexecution-de-commande/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/PHP-Composer-CVE-2026-40176-et-CVE-2026-40261.jpg.webp",
-      "excerpt": "PHP Composer est impacté par deux nouvelles failles pouvant permettre à un attaquant d'exécuter du code sur le serveur cible : CVE-2026-40176 et CVE-2026-40261.",
-      "author": "IT-Connect",
-      "date": "2026-04-17 07:14:43",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
       "hash": "669fb561f4a726e43a1089df53d6aca129c7093446d74c8734172bc0dd77e444",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -281,7 +281,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-cybersecurite-cybersecurity-pays-countries-attack-2024-2160x735.jpg",
       "excerpt": "Alors que l’IA Act pourrait tarder à entrer totalement en vigueur, les experts se demandent si cette loi européenne, garde-fou éthique de l’intelligence artificielle, ne sera pas rapidement totalement dépassée vu la vitesse hallucinante à laquelle progressent les faussaires. C’était l’un des thèmes majeurs du Forum INCYBER 2026 à Lille. ",
       "author": "Emmanuel Langlois",
-      "date": "2026-04-23 00:00:00",
+      "date": "2026-04-24 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -341,7 +341,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-computers-cybersecurite-cybersecurity-1-2160x735.jpg",
       "excerpt": "Un rapport du Centre for European Policy Studies remet en cause l’efficacité des politiques de blocage anti-piratage en Europe. En ligne de mire : une stratégie française jugée coûteuse, contournable et risquée pour l’infrastructure du web.",
       "author": "La Rédaction",
-      "date": "2026-04-22 00:00:00",
+      "date": "2026-04-28 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -361,7 +361,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/08/royaume-uni-les-donnees-de-40-millions-delecteurs-exposees-2160x735.jpg",
       "excerpt": "Les capacités offensives des derniers outils d’Anthropic et d’OpenAI inquiètent les autorités.",
       "author": "La Rédaction",
-      "date": "2026-04-21 00:00:00",
+      "date": "2026-04-28 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -461,7 +461,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/07/usa-the-white-house-plans-to-radically-overhaul-its-national-cybersecurity-strategy-1365x735.jpg",
       "excerpt": "Il entend ainsi « garantir la continuité des services municipaux vitaux ».",
       "author": "La Rédaction",
-      "date": "2026-04-27 00:00:00",
+      "date": "2026-04-28 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -501,7 +501,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-chatbot-2024-1920x735.jpg",
       "excerpt": "Les compagnons IA attirent déjà des millions d’utilisateurs dans le monde. Mais derrière une promesse relationnelle forte se dessine une autre réalité : celle d’une collecte massive de données personnelles dont les finalités, la durée de conservation et les conditions d’exploitation restent souvent mal comprises par les utilisateurs.",
       "author": "Fabrice Deblock",
-      "date": "2026-04-27 00:00:00",
+      "date": "2026-04-28 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
