@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-04-30 13:51:56",
+  "generated_at": "2026-05-01 13:16:48",
   "count": 30,
   "articles": [
+    {
+      "hash": "798b653bd44fdb679ca2cd749fc0e597ca99c1647693974a4cc94ba85b7880ff",
+      "cat_slug": "cyber",
+      "source": "IT-Connect",
+      "title": "Copy Fail : cette redoutable faille Linux permet d’obtenir un accès root",
+      "link": "https://www.it-connect.fr/copy-fail-cve-2026-31431-linux-access-root-vulnerabilite/",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Linux-Copy-Fail-CVE-2026-31431.jpg",
+      "excerpt": "Copy Fail (CVE-2026-31431), c'est le nom de la faille critique découverte dans le noyau Linux. Elle offre un accès root sur les distributions Linux depuis 2017.",
+      "author": "IT-Connect",
+      "date": "2026-04-30 15:20:26",
+      "tags": [],
+      "content": "",
+      "read_time": 1
+    },
     {
       "hash": "99e047e0151734a509c798e7a38caa1b228a1fcc4c8ea20901f6e5efe39b750e",
       "cat_slug": "cyber",
@@ -36,7 +50,7 @@
       "source": "IT-Connect",
       "title": "Vols d’identifiants sur Windows : Microsoft révèle l’exploitation de la CVE-2026-32202",
       "link": "https://www.it-connect.fr/vols-didentifiants-sur-windows-microsoft-revele-lexploitation-de-la-cve-2026-32202/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Windows-exploitation-CVE-2026-32202.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Windows-exploitation-CVE-2026-32202.jpg.webp",
       "excerpt": "Microsoft a révisé son bulletin de sécurité associé à la CVE-2026-32202 pour informer de son exploitation. Quels sont les risques ? Voici l'essentiel à savoir.",
       "author": "IT-Connect",
       "date": "2026-04-29 10:36:09",
@@ -199,20 +213,6 @@
       "read_time": 1
     },
     {
-      "hash": "a7f2c640d5a2777783e27a11240036fc959a9d12d74524ca8af349979770a643",
-      "cat_slug": "cyber",
-      "source": "IT-Connect",
-      "title": "Une VM QEMU utilisée par le ransomware Payouts King pour rester discret sur Windows",
-      "link": "https://www.it-connect.fr/une-vm-qemu-utilisee-par-le-ransomware-payouts-king-pour-rester-discret-sur-windows/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Une-VM-QEMU-utilisee-par-le-ransomware-Payouts-King-pour-rester-discret-sur-Windows.jpg.webp",
-      "excerpt": "Des pirates informatiques utilisent QEMU pour exécuter des VM sur Windows et être indétectables par les solutions de sécurité : quels sont les risques ?",
-      "author": "IT-Connect",
-      "date": "2026-04-20 13:50:48",
-      "tags": [],
-      "content": "",
-      "read_time": 1
-    },
-    {
       "hash": "669fb561f4a726e43a1089df53d6aca129c7093446d74c8734172bc0dd77e444",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -281,7 +281,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-cybersecurite-cybersecurity-pays-countries-attack-2024-2160x735.jpg",
       "excerpt": "Alors que l’IA Act pourrait tarder à entrer totalement en vigueur, les experts se demandent si cette loi européenne, garde-fou éthique de l’intelligence artificielle, ne sera pas rapidement totalement dépassée vu la vitesse hallucinante à laquelle progressent les faussaires. C’était l’un des thèmes majeurs du Forum INCYBER 2026 à Lille. ",
       "author": "Emmanuel Langlois",
-      "date": "2026-04-23 00:00:00",
+      "date": "2026-04-28 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -421,7 +421,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/import/post/2023/05/lindustrie-numerique-europeenne-soppose-au-data-act-2160x735.jpg",
       "excerpt": "Les récentes élections municipales ont confirmé une forme de rejet de la politique par les citoyens, au moment où les enjeux locaux auraient dû les mobiliser. L’abstention n’est pas conjoncturelle, car elle s’observe hélas ! de scrutin en scrutin. Les élus locaux bénéficient encore d’une certaine confiance, mais ils sont emportés dans un mouvement de déconsidération de la classe politique. Les causes sont multiples, à commencer par les scandales qui ont été révélés et trouvent leur point d’orgue devant les tribunaux. Certes les cas sont minoritaires, mais ils sont les arbres de la compromission qui cachent la forêt des élus honnêtes. Une des explications de cette rupture est aussi et sans doute à rechercher principalement dans l’absence de véritable projet politique qui réponde aux enjeux contemporains. Par la faute des citoyens qui croient encore en l’État « Providence », distributeur de prestations, les hommes et les femmes politiques sont devenus, pour beaucoup d’entre eux, des « épiciers » qui répondent aux multiples demandes, souvent contradictoires, si possible dans un temps très voisin des échéances électorales. Aristote et Platon, les pères de la politique - art de gouverner la cité en recherchant le bien commun, avec responsabilité morale, sens du dialogue et vision de long terme – ne pourraient guère trouver, dans le contexte actuel, matière à confirmer leur théorie et chercheraient les éléments constitutifs d’un retour à la sagesse. Ils en trouveraient peut-être un, inattendu pour eux : le numérique ! ",
       "author": "En savoir plus",
-      "date": "2026-04-24 00:00:00",
+      "date": "2026-04-28 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
