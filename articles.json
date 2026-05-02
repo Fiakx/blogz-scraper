@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01 13:16:48",
+  "generated_at": "2026-05-02 13:08:57",
   "count": 30,
   "articles": [
     {
@@ -8,7 +8,7 @@
       "source": "IT-Connect",
       "title": "Copy Fail : cette redoutable faille Linux permet d’obtenir un accès root",
       "link": "https://www.it-connect.fr/copy-fail-cve-2026-31431-linux-access-root-vulnerabilite/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Linux-Copy-Fail-CVE-2026-31431.jpg",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Linux-Copy-Fail-CVE-2026-31431.jpg.webp",
       "excerpt": "Copy Fail (CVE-2026-31431), c'est le nom de la faille critique découverte dans le noyau Linux. Elle offre un accès root sur les distributions Linux depuis 2017.",
       "author": "IT-Connect",
       "date": "2026-04-30 15:20:26",
@@ -78,7 +78,7 @@
       "source": "IT-Connect",
       "title": "Cyberattaque Udemy : le gang ShinyHunters publie les données de 1,4 million d’utilisateurs",
       "link": "https://www.it-connect.fr/cyberattaque-udemy-le-gang-shinyhunters-publie-les-donnees-1-4-million-utilisateurs/",
-      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Fuite-de-donnees-Udemy-avril-2026.jpg.webp",
+      "image_url": "https://www.it-connect.fr/wp-content-itc/uploads/2026/04/Fuite-de-donnees-Udemy-avril-2026.jpg",
       "excerpt": "Les pirates ont publié une base de données contenant plus de 1,4 million d'enregistrements correspondants à des utilisateurs de la plateforme Udemy.",
       "author": "IT-Connect",
       "date": "2026-04-28 07:04:30",
@@ -213,15 +213,15 @@
       "read_time": 1
     },
     {
-      "hash": "669fb561f4a726e43a1089df53d6aca129c7093446d74c8734172bc0dd77e444",
+      "hash": "1801bf13c8be08faefa622d2dfc34aded8dd9352d022bffacf5325d58404b360",
       "cat_slug": "cyber",
       "source": "INCYBER",
-      "title": "RSSI et DPO : complémentarité ou schizophrénie des fonctions ?",
-      "link": "https://incyber.org/article/rssi-et-dpo-complementarite-ou-schizophrenie-des-fonctions/",
-      "image_url": "https://incyber.org//wp-content/uploads/2025/05/incyber-news-cybersecurite-cybersecurity-cyberespace-2-2024-2160x735.jpg",
-      "excerpt": "C’est un sujet qui revient périodiquement : les missions des RSSI et des DPO sont-elles très proches ou au contraire sans aucun rapport ? Avant",
-      "author": "Cédric Cartau",
-      "date": "2026-04-24 00:00:00",
+      "title": "Nos données de recherche Google dans la nature ? Le compte à rebours est lancé !",
+      "link": "https://incyber.org/article/nos-donnees-de-recherche-google-dans-la-nature-le-compte-a-rebours-est-lance/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/07/incyber-news-abstract-data-7-2000x735.jpg",
+      "excerpt": "Google forcé de partager toutes les infos liées aux requêtes sur son moteur de recherche à la concurrence ? Un projet antitrust de la Commission européenne qui a tout de la fausse bonne idée, que ce soit en termes cyber ou au regard du respect de la vie privée des internautes. Si l’UE se dit prête à écouter les critiques, le temps presse pour remettre sur les rails un programme dangereux.",
+      "author": "Stanislas Tarnowski",
+      "date": "2026-04-28 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -253,6 +253,26 @@
       "read_time": 1
     },
     {
+      "hash": "669fb561f4a726e43a1089df53d6aca129c7093446d74c8734172bc0dd77e444",
+      "cat_slug": "cyber",
+      "source": "INCYBER",
+      "title": "RSSI et DPO : complémentarité ou schizophrénie des fonctions ?",
+      "link": "https://incyber.org/article/rssi-et-dpo-complementarite-ou-schizophrenie-des-fonctions/",
+      "image_url": "https://incyber.org//wp-content/uploads/2025/05/incyber-news-cybersecurite-cybersecurity-cyberespace-2-2024-2160x735.jpg",
+      "excerpt": "C’est un sujet qui revient périodiquement : les missions des RSSI et des DPO sont-elles très proches ou au contraire sans aucun rapport ? Avant",
+      "author": "Cédric Cartau",
+      "date": "2026-04-24 00:00:00",
+      "tags": [
+        "Cyber stabilité",
+        "Secops",
+        "Gestion des risques",
+        "Transformation numérique",
+        "Souveraineté numérique"
+      ],
+      "content": "<div></div>",
+      "read_time": 1
+    },
+    {
       "hash": "d70b53fa4174a8c47871b526820bfe182b6a13bb16bc39c48f0f39411a5f4816",
       "cat_slug": "cyber",
       "source": "INCYBER",
@@ -261,7 +281,7 @@
       "image_url": "https://incyber.org//wp-content/uploads/2026/02/media-episode-5-1080x735.png",
       "excerpt": "Depuis les révélations du Pegasus Project en 2021, les appels à encadrer la surveillance numérique se sont multipliés. Sommets internationaux, rapports parlementaires, initiatives européennes, déclarations conjointes : jamais la régulation des technologies de cyber-intrusion n’a semblé aussi urgente. Pourtant, derrière cette effervescence normative se dessine une réalité plus inconfortable. Les États qui dénoncent les abus sont souvent les mêmes qui développent, achètent ou utilisent ces capacités. La question n’est donc plus seulement de savoir qui régule la surveillance commerciale, mais qui a réellement intérêt à ce que la régulation fonctionne. Peut-on réguler l’un des marchés les plus opaques de la planète lorsque le nombre d’États qui y ont recours ne cesse d’augmenter, et que ceux qui n’y ont pas encore accès aspirent, à terme, à s’en doter eux aussi ?",
       "author": "Alexa Charles",
-      "date": "2026-04-23 00:00:00",
+      "date": "2026-04-28 00:00:00",
       "tags": [
         "Cyber stabilité",
         "Secops",
@@ -481,26 +501,6 @@
       "image_url": "https://incyber.org//wp-content/uploads/2025/06/istock-1384205321-2160x735.jpg",
       "excerpt": "Malgré une contraction des montants levés tous secteurs confondus, les investissements cyber progressent de 83 % sur le Vieux Continent.",
       "author": "La Rédaction",
-      "date": "2026-04-21 00:00:00",
-      "tags": [
-        "Cyber stabilité",
-        "Secops",
-        "Gestion des risques",
-        "Transformation numérique",
-        "Souveraineté numérique"
-      ],
-      "content": "<div></div>",
-      "read_time": 1
-    },
-    {
-      "hash": "11e0d1612bbdfbc31f063c19982c159ff79dc1ba06b57707b807742063f4cde2",
-      "cat_slug": "cyber",
-      "source": "INCYBER",
-      "title": "Compagnons IA : derrière l’empathie, la collecte des données",
-      "link": "https://incyber.org/article/compagnons-ia-derriere-empathie-collecte-donnees/",
-      "image_url": "https://incyber.org//wp-content/uploads/2024/09/incyber-news-cybersecurite-cybersecurity-chatbot-2024-1920x735.jpg",
-      "excerpt": "Les compagnons IA attirent déjà des millions d’utilisateurs dans le monde. Mais derrière une promesse relationnelle forte se dessine une autre réalité : celle d’une collecte massive de données personnelles dont les finalités, la durée de conservation et les conditions d’exploitation restent souvent mal comprises par les utilisateurs.",
-      "author": "Fabrice Deblock",
       "date": "2026-04-28 00:00:00",
       "tags": [
         "Cyber stabilité",
